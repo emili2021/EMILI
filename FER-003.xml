@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FER-003. Aghavea Inscribed Stone</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">FER-003</idno>    
+                <idno type="CIIC">965</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>National Museum of Ireland</repository>
+                        <idno  type="invNo">W22</idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A rectangular, <objectType ref="objects.xml#mon5">inscribed <material ref="materials.xml#lapis">stone</material></objectType>, described by <ref source="#MAC1945">Macalister (1949, 126)</ref> as 'grit’,     
+                                        <dimensions unit="cm">
+                                            <height>0.69</height>
+                                            <width>0.36</width>
+                                            <depth></depth>
+                                         </dimensions> (converted from <ref source="#MAC1945">Macalister 1949, 126)</ref>.                                                                           
+                                       </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><q>The inscription is carefully worked in two lines with deep, <rs type="execution" key="V-cut" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">V-sectioned</rs> letters</q> (<ref source="#HAM2001">Hamlin 2001, 58</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The entry in the <ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/ndrum_1.html">Celtic Inscribed Stones Project</ref> database notes that <q>a very squat form of Insular half-uncial, especially in the first line. In part this was achieved by bending the ascenders of the Ds until almost horizontal. The U is square-bottomed, the S and R majuscule, the bow of the A almost triangular (as at FINNE/1). Only the long descenders of the Ps break the squat appearance of the lettering. The initial OR has a contraction mark over it, as does the P and IT of the second line. The initial OR is also ligatured</q>.                                            
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="origPlace.xml#Aghavea">
+                                <placeName type="parish">Aghavea (<ref target="https://www.logainm.ie/ga/58948"><hi rend="italic">Achadh Bheithe</hi></ref>)</placeName>, <placeName
+                    type="county">Co. Fermanagh</placeName>, 
+                                <geo>54.296913, -7.431514</geo>.
+                            </origPlace>
+                            <origDate notBefore="0750" notAfter="0850" precision="low" evidence="textual-context" datingMethod="#julian">late eighth/early ninth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found" when="1857"><p><ref source="#HAM2001">Hamlin (2001, 58)</ref> notes that the stone was <q>'found in an old wall near Brookbroough'. <placeName type="townland"><!-- ref="findspot.xml#Brookeborough"-->Brookeborough</placeName> is in Aghavea parish, and there can be little doubt that the stone came from the Church of Ireland site in Aghavea townland</q>(?). <q>Aghavea is associated with Lasair, commemorated at 13 November in the Martyrology of Gorman (glossed 'of Achad Beithe'). A late Life of the Saint associates her with Aghavea and her bell was used for tax-collecting and holding water. The church re-emerges in written sources as a late medieval parish church, and the medieval and modern churches occupied the ancient church site. The present topography, including traces of a large curvilinear enclosure, indicates early activity, and the inscribed stone must fit at some poin in this long history</q> (<ref source="#HAM2001">Hamlin 2001, 58-9</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=17">Monasticon Hibernicum Database</ref>).</p>
+                        </provenance>
+                        <provenance type="observed"><p><ref source="#MAC1945">Macalister (1949, 126)</ref> noted that the stone was <q>presented to the Royal Irish Academy in 1857 by Rev. J. Caldwell, and now in the National Museum, Dublin</q>.</p> 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>
+            <!--<charDecl>
+<!-\- <glyph xml:id="crux">
+  <mapping type="standard">†</mapping>
+  <mapping type="simplified">(crux)</mapping>
+  <mapping type="g-london-diplomatic">†</mapping>
+ </glyph>-\->
+</charDecl>-->
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-08-07" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Aghavea.jpg"><desc>Sketch by Macalister (1949, Plate XLV)</desc></graphic>           
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#HAM2001">
+                <ab>
+                     <lb n="1" style="text-direction:verticle"/><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><hi rend="ligature">O<hi rend="supraline">R</hi></hi></abbr><ex>ÓIT</ex></w></expan>
+                     <w lemma="do" corresp="http://www.dil.ie/17096">DO</w>
+                    <persName><name nymRef="Dúnchad" corresp="www.dil.ie/19240">DUNCHAD</name></persName> 
+                    <lb n="2"/><foreign xml:lang="la"><w lemma="presbiter"><expan><abbr><hi rend="supraline">P</hi></abbr><ex>RE</ex></expan>SPI<expan><abbr><hi rend="supraline">T</hi></abbr><ex>ER</ex></expan></w></foreign> <w lemma="bec" corresp="http://www.dil.ie/5512">BIC</w>
+                  </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+  <app loc="1">
+   <note>Read by <ref source="#PET1845">Petrie (1878, 74)</ref> as OROIT DO DUNCHAD PRESPITER HIC.</note>
+  </app>
+ </listApp>                
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer for Dunchad, the little priest.</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p><q>The reference to Dunchad's position as priest is most unusual in an Irish inscription, and so is the epithet BIC, though it appears in the <ref target="https://emili.celt.dias.ie/ARM-002">Kilnasaggart inscription</ref>. The use of P rather than B (presbiter) is quite common in Hiberno-Latin, but the use of the Latin word in an otherwise Irish inscription is not</q> (<ref source="#HAM2001">Hamlin 2001, 58</ref>).</p></item>
+                    <item n="2"><p>It is perhaps indicative of a later Old Irish date that here we find dative <hi rend="italic">bic</hi> (of o, ā-stem adjective <ref target="https://dil.ie/5512"><hi rend="italic">becc</hi></ref> 'small, little') rather than earlier <hi rend="italic">biuc</hi>.</p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>                     
+                    <bibl><ptr target="#HAM2001"/>Hamlin 2001, 
+                        <citedRange>58</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>126, no.965</citedRange>
+                    </bibl>;                    
+                    <bibl><ptr target="PET1878"/>Petrie 1878,
+                        <citedRange>74</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>287</citedRange>
+                    </bibl>
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

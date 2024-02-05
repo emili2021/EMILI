@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>KIK-003. Killamery 3. High Cross</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">KIK-003</idno>
+                 <idno type="CIIC">572</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>N/A</repository>
+                        <idno type="invNo"><!--BELUM.A131.1933--></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008004-">KK030-008004-</ref>. 
+                                        A <material ref="materials.xml#lapis">sandstone</material> <objectType ref="objects.xml#mon9">high cross</objectType> 
+                                         (<dimensions unit="m">
+                                            <height>2.86</height>
+                                            <width>1.16 (cross head max.) - 0.47 (cross shaft)</width>
+                                            <depth>0.35 (cross shaft)</depth>
+                                         </dimensions>) stands on a two-tiered base (dims. 1.25m square; H 0.7m). There is a raised heavy rope-like moulding around the edges which terminates at a projecting basal plinth which is formed at the base of the shaft. There is figurative carving in the cross heads and the panels are decorated with floral and interlace patterns. The west face bears most of the figure sculpture. <ref source="#EDW1990">Edwards (1990, 61)</ref> dates the high cross to the end of the 8th or first half of the 9th century (Detailed descriptions of the various features by <ref source="#HAR1992">Harbison (1992)</ref> are available at <ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008004-">Archaeology.ie</ref>). </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>On a panel on the western side of the base of the sculptured cross (above the two-tiered base). The lettering, in two lines, is in <rs type="execution" ref="https://www.eagle-network.eu/voc/writing/lod/7.html">relief</rs>. The first four letters are clear, but the remainder is very obscure and densely covered with lichen (<ref source="#MAC1949">Macalister 1949, 25</ref>).
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>According to <ref source="#MAC1949">Macalister's (1949)</ref> sketch, the inscription is half-uncial though with majuscule R. The Es are closed and the first example is ligatured with the preceeding A. The Ls, particularly at the end of SECHNAILL, descend below the line.
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Killamery">
+                                <placeName type="townland">Killamery (<ref target="https://www.logainm.ie/ga/1321"><hi rend="italic">Cill Lamraí</hi></ref>)</placeName>, <placeName type="county">Co. Kilkenny</placeName>, 
+                                <geo>52.475399, -7.445995</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1949"><p>The inscription appears to be first noted by <ref source="#MAC1949">Macalister (1949, 25)</ref> on the base of the shaft of the west face of the high cross, located in the graveyard (KK030-008010-). <q>According to <ref source="#CAR1905">Carrigan (1905, vol. 4, 311-2)</ref> a monastery here was founded by St. Gobbán Finn early in the 7th century whose feast day is celebrated on the 6th of December</q>. <q>Of the <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=1799">monastic site</ref> only a high cross (KK030-008004-), two cross-slabs (KK030-008005-; KK030-008011-), a stone cross (KK030-008013-), the remains of a church (KK030-008003-) and two bullaun stones (KK030-008006-; KK030-008008-) are currently visible at the location</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008005-">Archaeology.ie</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">At the findspot in the graveyard.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for  EMILI (Early Medieval Irish Latinate Inscriptions) controlled values?</p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>   
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-04-27" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-10" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-10" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>        
+        <graphic url="Killamery3.jpg"><desc>Sketch by Macalister (1949, PlateV)</desc></graphic>
+         <media url="https://sketchfab.com/3d-models/killamery-high-cross-f43f806647d944f2bf3b17d3956073e6" mimeType="text/html"><desc>3d model on Sketchfab by Digital Heritage Age</desc></media>        
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#MAC1949">                     
+                         <ab>
+                    <supplied reason="lost" evidence="previouseditor"><lb n="1"/><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><supplied reason="lost">O</supplied>R</abbr><ex>ÓIT</ex></w></expan> <w lemma="do" corresp="http://www.dil.ie/17096">DO</w> <persName><name nymRef="Máel Sechnaill" type="attested"><w lemma="máel" corresp="https://dil.ie/31244">M<hi rend="ligature">AE</hi>L<lb n="2" break="no"/></w><seg type="element">SECHNAILL</seg></name></persName></supplied>                 
+                 </ab>                 
+            </div>
+            <div type="apparatus">
+                    
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer for Máel Sechnaill</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The inscription in this case is no longer legible and we are dependant on <ref source="#MAC1949">Macalister's (1949)</ref> reading. If accurate, the text may refer to <ref target="https://www.dib.ie/biography/mael-sechnaill-a5318">Máel Sechnaill mac Máel Rúanaid</ref> (as commissioner of the cross) who, according to the Annals of Ulster, was <hi rend="italic">ri hErenn uile</hi> 'king of all Ireland' and died in 862 AD (<ref target="https://celt.ucc.ie//published/T100001A/">CELT - Corpus of Electronic Texts</ref>; <ref source="#Mac1983">Mac Airt and Mac Niocaill, 1983</ref>). This date is consistent with the dating proposed for the High Cross from a stylistic point of view.</p></item>
+                  <item n="2"><p>Máel Sechnaill is one of a group of compound names which have as their second element the name of a saint in the genitive (in this case Sechnall 'small second-born', Lat. Secundinus) and a first element either <ref target="https://dil.ie/31244"><hi rend="italic">máel</hi></ref> 'devotee' (as here) or <hi rend="italic">gilla</hi> 'servant' (as in Gilla Críst 'servant of Christ') (<ref source="#OKA2001">Okasha and Forsyth 2001, 32</ref>).</p></item>
+                </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#CAR1905"/>Carrigan 1905, 
+                        <citedRange>vol. 4, 311-312</citedRange>
+                    </bibl>;    
+                     <bibl><ptr target="#EDW1990"/>Edwards 1990,
+                        <citedRange>61</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#HAR1992"/>Harbison 1992,
+                        <citedRange>vol. 1, 121-124</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>25, no.572</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#MAC1983"/>Mac Airt and Mac Niocaill 1983, 
+                        <citedRange></citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#OKA2001"/>Okasha and Forsyth 2001                        
+                    </bibl>                    
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

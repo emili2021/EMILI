@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>KIK-002. Killamery 2. Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">KIK-002</idno>
+                 <idno type="CIIC">571</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>N/A</repository>
+                        <idno type="invNo"><!--BELUM.A131.1933--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008013-">KK030-008013-</ref>. 
+                                        A <material ref="materials.xml#lapis">stone</material> (`rough grit', according to <ref source="#MAC1949">Macalister</ref> 1949, 25)  <objectType ref="objects.xml#mon3">cross slab</objectType>,  
+                                         (<dimensions unit="m">
+                                            <height>0.38</height>
+                                            <width>0.22</width>
+                                            <depth></depth>
+                                         </dimensions>) with an incised <rs type="decoration" ref="crosses.xml#linearCross">single-line</rs> <rs type="decoration" ref="crosses.xml#LatinCross">Latin cross</rs> (L c. 0.12m) with enlarged ends (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008013-">Archaeology.ie</ref>). </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is reported to have been positioned beneath the cross on the slab (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008013-">Archaeology.ie</ref>). Unfortunately, little else has been recorded about the physical appearance of the inscription or the cross-slab, apart from the sketch below by <ref source="#PET1878">Petrie (1878, Plate XVII)</ref> .
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>According to Petrie's sketch, the Rs in this inscription are half-uncial, many of the letters (THUATHA) are quite angular and the final L has a wedge-shaped finial.
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Killamery">
+                                <placeName type="townland">Killamery (<ref target="https://www.logainm.ie/ga/1321"><hi rend="italic">Cill Lamraí</hi></ref>)</placeName>, <placeName type="county">Co. Kilkenny</placeName>, 
+                                approx. <geo>52.475250, -7.445859</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1853"><p>Reported in 1853 by Carrigan who describes it as " a very small freestone flag, thin and rough, outside the graveyard a few perches to the south" (<ref source="#MAC1949">Macalister 1949, 25</ref>). <q>According to <ref source="#CAR1905">Carrigan (1905, vol. 4, 311-2)</ref> a monastery here was founded by St. Gobbán Finn early in the 7th century whose feast day is celebrated on the 6th of December</q>. <q>Of the <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=1799">monastic site</ref> only a high cross (KK030-008004-), two cross-slabs (KK030-008005-; KK030-008011-), a stone cross (KK030-008013-), the remains of a church (KK030-008003-) and two bullaun stones (KK030-008006-; KK030-008008-) are currently visible at the location</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008005-">Archaeology.ie</ref>).</p>
+                        </provenance>
+                        <provenance type="observed"><p>Lost since at least Macalister's time (1940s).</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for  EMILI (Early Medieval Irish Latinate Inscriptions) controlled values?</p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-04-27" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-10" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-10" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>        
+         <graphic url="Killamery2.jpg"><desc>Sketch by Petrie (1878, Plate XVII)</desc></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#CAR1905">                    
+                         <ab>
+                    <lb n="1"/><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><hi rend="supraline">OR</hi></abbr><ex>ÓIT</ex></w></expan> <w lemma="ar" corresp="http://www.dil.ie/3902">AR</w> <persName><name nymRef="Túathal">THUATHAL</name></persName>
+                 </ab>
+            </div>
+            <div type="apparatus">
+                    
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer on behalf of Túathal</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The personal name Túathal ('tribe-ruler', compound containing <ref target="https://dil.ie/42241">túath</ref> 'people, territory') is quite common in early medieval Ireland. </p></item>               
+                </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#CAR1905"/>Carrigan 1905, 
+                        <citedRange>vol. 4, 315</citedRange>
+                    </bibl>;                     
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>25, no.571</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>vol. 2, 24, Plate XVII</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>287</citedRange>
+                    </bibl>
+                 </p>
+            </div>           
+        </body>
+    </text>
+</TEI>

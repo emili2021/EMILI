@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ARM-001. Terryhoogan Hand-bell</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">ARM-001</idno>
+                 <idno type="CIIC">945</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>National Museum of Ireland</repository>
+                         <idno  type="invNo">1921:Wk203 <!--(1886:4012?)--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="mga-Latn">Middle Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Northern Ireland Sites and Monuments Record Number: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=5538">ARM014:009</ref>. 
+                                        <material ref="materials.xml#aes">Bronze</material> <objectType ref="objects.xml#mon4">hand-bell</objectType>                                       
+                                         (<dimensions unit="cm">
+                                            <height>29.8</height>
+                                            <width>27.9</width>
+                                            <depth>20.3</depth>
+                                         </dimensions>, converted from <ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/ARM/ARM_014/ARM_014_009/Public/SM7-ARM-014-009.pdf">SMR file, 16</ref>), of sub-oval section, markedly different from angular section of many bells. Heavy cast bronze with widely flaring mouth. Cracked with rivet holes showing early repair. Handle and clapper of iron. Known by various names: the <name type="object" source="#PET1878">Bell of Armagh</name>, <name type="object" source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/ARM/ARM_014/ARM_014_009/Public/SM7-ARM-014-009.pdf">Bell of Ballynaback/Ballinabeck</name> (through confusion with another nearby graveyard) and <hi rend="italic"><name type="object" source="#CHA2003">Clog Ban/Beannighte</name></hi> 'blessed bell'.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <!--<rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/?.html">??</rs> (<ref source="#??">???</ref>) and--> arranged <rs type="style">horizontally</rs> in three lines on the lower half of one side of the bell, just below a (rivet?) hole. A <rs type="decoration" ref="symbols.xml#initialCrosslet">small initial crosslet (Latin cross with seriphs top and ends of arms)</rs> is positioned just before the text (<ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/ARM/ARM_014/ARM_014_009/Public/SM7-ARM-014-009.pdf">SMR file, 16</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The lettering is in half-uncial, with majuscule Rs, an open E, minuscule Hs and two different A types: two rounded As in the second line and As with extended shafts curving down to the left in the first (partially damaged by crack) and third lines.                                   
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Terryhoogan">
+                                <placeName type="site">Relicarn (<ref target="https://www.logainm.ie/ga/124032"><hi rend="italic">Reilig Chairn</hi></ref>)</placeName>, in the townland of <placeName  type="townland">Terryhoogan</placeName>, <placeName
+                    type="county">Co. Armagh</placeName>, 
+                                <geo>54.335437, -6.378984</geo>.
+                            </origPlace>
+                            <origDate notBefore="0850" notAfter="0950" cert="medium" evidence="prosopography" datingMethod="#julian">c. 909 A.D.</origDate>
+                        </origin>
+                        <provenance type="found" when="1725"><p>Believed to have been found in the 18th century in <placeName type="site">Relicarn</placeName> graveyard (<ref target="https://monasticon.celt.dias.ie/showrecord.php?id=5352">Monasticon Hibernicum Database</ref>). The Heaney family were custodians of the bell until <q>about the year 1840 the bell passed to the Dean of St. Patrick's Cathedral, Dublin and on his death went to the Royal Irish Academy</q> and from there to the National Museum of Ireland where it remains today (<ref source="#CHA2003">Chapman 2003, 31-5</ref>;                     
+                            <ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/ARM/ARM_014/ARM_014_009/Public/SM7-ARM-014-009.pdf">SMR files</ref>)</p>.
+                        </provenance>
+                        <provenance type="observed">National Museum of Ireland
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>
+            <!--<charDecl>
+<!-\- <glyph xml:id="crux">
+  <mapping type="standard">†</mapping>
+  <mapping type="simplified">(crux)</mapping>
+  <mapping type="g-london-diplomatic">†</mapping>
+ </glyph>-\->
+</charDecl>-->
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>   
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-07-01" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to also 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Terryhoogan.jpg"><desc>Image by National Museum of Ireland ©NMI (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</ref>)</desc></graphic>        
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="mga" resp="#NW">
+                <ab>
+                     <lb n="1"/><g ref="symbols.xml#†">†</g><w lemma="oróit" corresp="http://www.dil.ie/33938">OROIT</w> <w lemma="ar" corresp="http://www.dil.ie/3902">AR</w> <persName type="attested" ref="#pers003"><persName><name nymRef="Cummascach" type="attested">CH<expan><abbr><hi rend="supraline">U</hi></abbr><ex>M</ex></expan>                   
+                     <lb n="2" break="no"/>MASCACH</name></persName> <expan><w lemma="Mac" type="patronym" corresp="http://www.dil.ie/31166"><abbr><hi rend="supraline">M</hi></abbr><ex>AC</ex></w></expan>
+                    <lb n="3"/><persName type="patronym"><name nymRef="Ailill">AILELLO</name></persName></persName> 
+                 </ab>
+            </div>
+            <div type="apparatus">
+                 
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer on behalf of Cummascach son of Ailill</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Initial crosslets are common before texts on carved stone monuments and on metalwork, as well as in manuscripts, on the Continent and in Britain (<ref source="LIO1961">Lionard 1961, 101–2</ref>). In Ireland, they are attested from the later 7th/8th centuries (e.g., Toureen Peakaun) to the 12th century (e.g., the Cross of Cong). However, they are not as common as in Anglo-Saxon England (<ref source="OKA2001">Okasha and Forsyth 2001, 16</ref>).</p></item> 
+                        <item n="2"><p>A relatively rare example here of <hi rend="italic">oróit</hi> 'prayer' written out in full (usually abbreviated to <hi rend="supraline">OR</hi>). The personal name <hi rend="italic">Cummascach</hi> (<ref source="http://www.dil.ie/13862">meaning 'mixture-causing, disturbing'</ref>) is quite common in early Medieval Ireland, though not as common as the father's name <hi rend="italic">Ailill</hi>.                        
+                    </p></item>
+                        <item n="3"><p><q>The death of an individual of this name is recorded in the Annals of Ulster under the year 908 (recte 909), and the entry describes him as equonimus or steward of Armagh: <hi rend="italic">Cumuscach m. Ailello; equonimus Airdd Macha; quieuit</hi> (<ref target="https://celt.ucc.ie//published/T100001A/">CELT - Corpus of Electronic Texts</ref>; <ref source="#Mac1983">Mac Airt and Mac Niocaill, 1983</ref>). Petrie (184) identified this individual with the person named in the inscription and the identification has never been questioned (note archaising ending -<hi rend="italic">o</hi> of AILELLO, which, however, is quite common). The obits of the father, grandfather and great-grandfather of the Cummascach who died in 909 are entered in the Annals of Ulster under the years 848, 816 and 783 respectively. The names of the four appear in the genealogy of the <hi rend="italic">Clann Cernaig</hi>, a branch of the <hi rend="italic">Ui Nialláin</hi> located in modern county Armagh (<ref source="#OBR1962">O'Brien 1962, 183</ref>). Terryhoogan, where the bell was found, is some 15km east of Armagh city and within <hi rend="italic">Ui Niallain</hi> territory</q> (<ref source="#BOU1980">Bourke 1980, 57-8</ref>).</p></item></list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#BOU1980"/> Bourke 1980,
+                        <citedRange>57-8 (no. 44)</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#BOU2020"/> Bourke 2020,
+                        <citedRange></citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#CHA2003"/>Chapman 2003,
+                        <citedRange>31-7</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>113-4, no.945</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#MAC1983"/>Mac Airt and Mac Niocaill 1983, 
+                        <citedRange></citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#OBR1962"/>O'Brien 1962, 
+                        <citedRange>183</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="PET1878"/>Petrie 1878,
+                        <citedRange>107-8, Plate XLVI</citedRange>
+                    </bibl>;   
+                    <bibl><ptr target="STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>286</citedRange>
+                    </bibl>
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

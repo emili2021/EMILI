@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ANT-001. Kilconriola Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">ANT-001</idno>
+                 <idno type="CIIC">943</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Northern Ireland Sites and Monuments Record Number: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=2225">ANT032:059</ref>. 
+                                        <material ref="material.xml#lapis">Stone</material> <objectType ref="objects.xml#mon3">cross slab</objectType>, 
+                                    described by <ref source="#HAM2001">Hamlin</ref> (2001, 54) as <q>basalt</q> 
+                                         (<dimensions unit="m" source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kiola_1.html">
+                                            <height>0.52</height>
+                                            <width>0.46</width>
+                                            <depth></depth>
+                                         </dimensions>). A roughly rectangular slab broken along the base. It has a <rs type="decoration" ref="crosses.xml#ringedCross">ringed outline cross</rs> with three expanded T-bar terminals. Veritcal and horizontal cracks running through the centre of the cross have been repaired and conserved (<ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/ANT/ANT_032/ANT_032_059/Public/SM7-ANT-032-059.pdf">NISMR Database</ref>). <ref source="#MAC1949">Macalister (1949, 112)</ref> described the surface as <q>slightly convex</q>.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pecked</rs> (<q>pocked and rubbed</q> <ref source="#MAC1949">Macalister 1949, 112</ref>) and arranged <rs type="style">horizontally</rs> in two lines around the four quadrants of the cross outside the ring (<ref source="#HAM2001">Hamlin 2001, 54</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The lettering is in half-uncial, although it includes a capitalis N. Two open-bowed Ds with the ascender curving to the left, one with a heart-shaped bow, a majuscule R, two open Es with an extended horizontal stroke, the first example ligatured with a half-uncial G</q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kiola_1.html">Celtic Inscribed Stones Project</ref>). 
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Kilconriola">
+                                <placeName  type="townland">Kilconriola, later 'Kirkinriola' (<ref target="https://www.logainm.ie/en/61339"><hi rend="italic">Cill Chon Riala</hi></ref>)</placeName>, <placeName
+                    type="county">Co. Antrim</placeName>, 
+                                <geo>54.897136, -6.264663</geo>.
+                            </origPlace>
+                            <origDate notBefore="0600" notAfter="0700" cert="medium" evidence="prosopography" datingMethod="#julian">c. 639 A.D. (Archaic OIr.)?</origDate>
+                        </origin>
+                        <provenance type="found" when="1827"><p><q>Found, according to different accounts, in 1827 or in 1868, either while levelling the earthen enclosure of the graveyard, or during grave digging. It was drawn by W.H. Patterson in 1869 and this drawing was published by Petrie in 1872</q> (<ref source="#HAM2001">Hamlin 2001, 54</ref>). Although not documented in early written sources, Kilconriola was probably an early church site (<ref
+                                target="https://monasticon.celt.dias.ie/showrecord.php?id=4278"
+                                >Monasticon Hibernicum database</ref>). <q>The place-name was originally a <hi rend="italic">cell</hi> form (from Latin <hi rend="italic">cella</hi>); a souterrain runs under the graveyard; and an early ecclesiastical bell from <placeName  type="townland">Cabragh</placeName> may have come from the site. These factors and the inscribed slab all point to early activity at Kilconnriola</q> (<ref source="#HAM2001">Hamlin 2001, 54</ref>)</p>.
+                        </provenance>
+                        <provenance type="observed"><p><q>The slab was taken for safety to St Patrick's Church of Ireland Church in nearby <placeName  type="townland">Ballymena</placeName> (<geo>54.8627777, -6.2733383</geo>), and in 1927 was set in its present position in the church porch. The cracks suggest that it was in two or three pieces when it was set in the porch</q> (<ref source="#HAM2001">Hamlin 2001, 54</ref>; <ref source="#LAW1938">Lawlor 1938, 32</ref>).</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for  EMILI (Early Medieval Irish Latinate Inscriptions) controlled values?</p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language> 
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-06-27" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-06" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to also 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Kiola_1.jpg">
+        <desc>Macalister 1949 sketch from CISP</desc></graphic>
+         <graphic url="Kilconriola.jpg">
+        <desc>Photograpgh by Nora White</desc></graphic>
+        <media url="https://sketchfab.com/3d-models/kilconriola-inscribed-cross-slab-050e5feb26b84971adde038535e746bb" mimeType="text/html"><desc>3d model on Sketchfab by Megan Kasten</desc></media> 
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#NW">
+                <ab>
+                    <lb n="1"/><!--<milestone unit="quadrant" n="1"/>--><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr>O<hi rend="supraline">R</hi></abbr><ex>ÓI</ex>T</w></expan><!--<milestone unit="quadrant" n="2"/>-->                    
+                    <w lemma="do" corresp="http://www.dil.ie/17096">DO</w>
+                    <lb n="2" /><!--<milestone unit="quadrant" n="3"/>--><persName><name nymRef="Degen" corresp="http://www.dil.ie/15075">D<hi rend="ligature">EG</hi><!--<milestone unit="quadrant" n="4"/>-->EN</name></persName>   
+               </ab>
+            </div>
+            <div type="apparatus">
+                 
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer for Degen</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Usually the abbreviated form of <hi rend="italic">oróit</hi> 'prayer' is marked with a suspension stroke over <hi rend="supraline">OR</hi> but here the final T is also included.</p></item>
+                    <item n="2"><p><ref source="#LAW1938">Lawlor</ref> (1938, 34-5) claimed that <hi rend="italic">Degen</hi> could be identified with a bishop <hi rend="italic">Dagán</hi> of the community of Bangor (Co. Down), mentioned in Bede's <hi rend="italic">Ecclesiastical History</hi> (II.4) and also with <hi rend="italic">Daghan Inbir Dáile</hi> who's death is noted in the annals in 639AD. However, <ref source="#HAM2001">Hamlin (2001, 55)</ref> points out that <hi rend="italic">Dagán</hi> of <hi rend="italic">Inber Dáile</hi> <q>was a Leinster saint from County Wicklow</q>. <hi rend="italic">Degen</hi> of Kilconriola remains unidentified, but the vocalism could indeed point to an early date.</p></item></list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#CRA1912"/>Crawford 1912, 
+                        <citedRange>217-244</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#HAM2001"/>Hamlin 2001, 
+                        <citedRange>54</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#LAW1938"/>Lawlor 1938,
+                    <citedRange>32-35</citedRange>                    
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>112, no.943</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1909"/>MacNeill 1909, 
+                        <citedRange>333</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1911"/>MacNeill 1911, 
+                        <citedRange>79</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#PET1845"/>Petrie 1845,
+                        <citedRange>164</citedRange>                    
+                    </bibl>;
+                    <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>73, fig. 80</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>286</citedRange>
+                    </bibl>.
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

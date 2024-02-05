@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LOU-001. Monasterboice (South) High Cross</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">LOU-001</idno> 
+                 <idno type="CIIC">580</idno> 
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="mga-Latn">Middle Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=LH021-062007-">LH021-062007-</ref>. 
+                                        <material ref="materials.xml#lapis">Sandstone</material>, <objectType ref="objects.xml#mon9">high cross</objectType>,                                           
+                                         <dimensions unit="m">
+                                            <height>5.20</height> 
+                                            <width>2.14 (across arms)</width> 
+                                            <depth></depth>
+                                         </dimensions>. 
+                                        The South Cross, also called Muiredach’s Cross, is truly monumental and the sculpted biblical scenes are so finely executed that art historian, <ref source="#STA2007">Roger Stalley (2007)</ref>, has called the unknown sculptor the 'Muiredach Master' and has pointed to other crosses at Kells, Durrow and Clonmacnoise that are likely to have been carved by the same man. The most significant scenes are those at the junction of the arms and shaft and central to the ring at each side, the crucifixion facing west and the last judgement facing east, with the blessed on one arm and the damned on the other. There are Old Testament scenes on the east side of the shaft and New Testament scenes on the west side. All surfaces of the stone are sculpted as is the base, which has suffered much from weathering (<ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=LH021-062007-">Archaeology.ie</ref>; <ref source="#HAR1992">Harbison (1992)</ref>;  <ref source="#ROE1981">Roe (1981, 31-43)</ref>). </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is carved on the base of the shaft on the west side of the cross around and between a high relief carving of two cats in a double-lined frame. It is arranged <rs type="style">horizontal</rs>ly in three lines. Some letters on the extreme left and right of the second and third lines are lost to weathering.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The inscription is in Insular half-uncial, including one of the Rs and the S, which are often found in there majuscule form. Other than those placed between the heads of the cats, letters are quite broad. Of note are the two Ds with ascenders which bend to the left over the bow, in the second example the ascender then curves upward. The Es are both open and closed, and the D has an open bow. The U has an extended descender and two contraction marks over OR and the final I of line two can also be seen</q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/mboic_1.html">Celtic Inscribed Stones Project</ref>).
+                                <height/>Letter height approx. 4cm
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Monasterboice">
+                                 <placeName type="townland">Monasterboice (<ref target="https://www.logainm.ie/ga/34018"><hi rend="italic">Mainistir Bhuithe</hi></ref>)</placeName>, <placeName type="county">Co. Louth</placeName>, 
+                                <geo>53.777608, -6.417710</geo>.
+                            </origPlace>
+                            <origDate notBefore="0875" notAfter="0924" datingMethod="#julian" evidence="prosopography">Late ninth or early tenth century A.D</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1744"><p>The first known mention of the high cross is by Isaac Butler in 1744 (<ref source="#ROE1981">Roe 1981, 15</ref>). 
+                            <q>The monastic remains at <ref target="https://monasticon.celt.dias.ie/4508">Monasterboice</ref> constitutes a National Monument consisting of a small enclosed graveyard (LH021-062002-) with two small churches (LH021-062003-; LH021-062004-), a round tower (LH021-062006-), three high crosses (LH021-062007-; LH021-062008-; LH021-062009-), a bullaun stone (LH021-062010-), sundial (LH021-062011-) and a number of grave-slabs (LH021-062012-; LH021-062013-; LH021-062014-)... Founded by St. Buite (later Buithe), who died about 520 and who gave his name to the place (<hi rend="italic">Mainistir Buithe</hi> - the monastery of Buithe), it came to prominence in the Irish annals from the early eighth century and continued to be mentioned frequently up until the twelfth century, mainly in relation to the deaths of ecclesiastics associated with it</q> (<ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=LH021-062001-">Archaeology.ie</ref>). </p>
+                        </provenance>
+                        <provenance type="observed">Standing on site, probably in its original location.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language> 
+<language ident="mga-Latn">Middle Irish written in latin script</language> 
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-07-27" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-10" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+         <graphic url="Monasterboice_cross.jpg"><desc>Photograph ny Nora White 2022</desc></graphic>      
+        <media url="https://sketchfab.com/3d-models/monasterboice-high-cross-inscription-835cb15a049746f49f9d03a8c81f995a" mimeType="text/html"><desc>3d model on Sketchfab by Nora White</desc></media>       
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="mga" resp="#NW">
+                <ab>  
+                      <lb n="1"/><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><hi rend="supraline">OR</hi></abbr><ex>ÓIT</ex></w></expan> <w lemma="do" corresp="http://www.dil.ie/17096">DO</w> <persName><name nymRef="Muiredach" corresp="https://dil.ie/32775">MUIREDACH</name></persName> <w lemma="la" corresp="http://www.dil.ie/29233"><unclear reason="faded">L</unclear>A<unclear reason="faded">S</unclear></w><lb n="2" break="no"/><w lemma="do·gní" corresp="http://www.dil.ie/17752">NDERN<supplied reason="lost">AD</supplied></w> <expan><w lemma="in" corresp="http://www.dil.ie/28194"><supplied reason="lost" resp="#MAC1949"><abbr><hi rend="supraline">I</hi></abbr><ex>N</ex></supplied></w></expan>
+                            <lb n="3"/><w lemma="cros" corresp="http://www.dil.ie/13123"><supplied reason="lost">C</supplied>HRO<supplied reason="lost" resp="#MAC1949">S</supplied></w><w lemma="-so" corresp="https://dil.ie/38191"><supplied reason="lost" resp="#MAC1949">SA</supplied></w>    
+                  </ab>
+            </div>
+            <div type="apparatus">
+                
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer for Muiredach for whom this cross has been made</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Muiredach is quite a common name in the medieval period but it is generally accepted that this is likely to refer to <ref target="https://www.dib.ie/biography/muiredach-a6022">Muiredach son of Domnall</ref> who, according to the <ref target="https://celt.ucc.ie/published/T100001A/index.html">Annals of Ulster</ref>, died in 924 as successor of Buithe and vice-abbot of Armagh (<ref source="#STA2020">Stalley 2020, 91</ref>).</p></item>
+                       <item n="3"><p>The verbal form (<hi rend="italic">·dernad</hi>) is the 3sg. prototonic, augmented preterite passive ('has been made') of <hi rend="italic">do·gní</hi> 'to make', with a prepositional relaitve <hi rend="italic">las(a) n-</hi> 'by whom'). However, rather than expressing that Muiredach is the craftsman who made the cross (for which we might rather expect the from <hi rend="italic">do·rigni</hi> '(who) has made'), the use of the prepositional relative to express agency with the passive verb suggests that Muiredach was the commissioner of the cross, which is best conveyed by the translation 'for whom the cross has been made' (cf. <ref target="#OKA2001">Okasha and Forsyth 2001, 29</ref>). Although the last few letters are illegible, there is sufficient space for a demonstrative particle <hi rend="italic">-so/-sa</hi> following <hi rend="italic">in cros</hi> (giving 'this cross' rather than just 'the cross'). This reading with the demonstrative survives on the otherwise very similar inscription on the Bealin high cross (<ref target="https://emili.celt.dias.ie/WEM-001">WEM-001</ref>).</p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p> 
+                    <bibl><ptr target="#HAR1992"/>Harbison 1992,
+                        <citedRange>vol. XXX</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>31-32, no.580</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#ROE1981"/>Roe 1981,
+                    <citedRange>26-44</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#STA2007"/>Stalley 2007, 
+                        <citedRange>153-166</citedRange>
+                     </bibl>;
+                     <bibl><ptr target="#STA2020"/>Stalley 2020, 
+                        <citedRange>91</citedRange>
+                    </bibl>
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

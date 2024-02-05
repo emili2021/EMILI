@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ARM-002. Kilnasaggart Pillar</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">ARM-002</idno>
+                 <idno type="CIIC">946</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                             
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Northern Ireland Sites and Monuments Record Number: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=6157">ARM032:006</ref>. 
+                                        <material ref="materials.xml#lapis">Stone</material>, <objectType ref="objects.xml#mon10">cross carved pillar</objectType>, 
+                                    described by <ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/ARM/ARM_032/ARM_032_006/Public/SM7-ARM-032-006.pdf">SMR files</ref> as <q>granite</q> 
+                                         (<dimensions unit="m">
+                                            <height>2.12</height>
+                                            <width>0.43-0.50</width>
+                                            <depth>0.15-0.18</depth>
+                                         </dimensions>). The inscribed face to the south-east is <q>flattish, although damaged on its southern edge, while the 'back' to the north-west, is generally convex but angular towards the base</q>. Long, deep sharpening scores are found low down on the south-western and north-western faces. This have been mistakenly interpreted as Ogham scores in the past. The inscription, on the south-east face, is between <q>two large crosses, the upper a <rs type="decoration" ref="crosses.xml#LatinCross">Latin cross with terminals expended in seriphs</rs>, the lower an <rs type="decoration" ref="crosses.xml#equal-armedCross">equal-armed cross with spiral terminals</rs>, <rs type="decoration" ref="crosses.xml#circular-framedCross">enclosed in a circle</rs></q>  (<ref source="https://www.abartaheritage.ie">Photograph below courtesy of Abarta Heritage</ref>). The top right-hand corner of the sout-east face is broken at an angle and the resulting space is filled with another <rs type="decoration" ref="crosses.xml#circular-framedCross">encirled equal-armed cross</rs>. The north-west ('back') face of the pillar has <rs type="decoration" ref="crosses.xml#equal-armedCross">ten equal-armed crosses</rs>, nine within circles and 2 smaller than the rest. Three have spiral-decorated arms and the rest have slightly expanded terminals. The six crosses on the right are treated as a linked group, all except the top cross are within circular frames in relief. The four crosses to the left are cut on raised circular discs without encircling frames.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <rs type="execution" key="scalpro" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">chisel cut</rs> (<ref source="#MAC1949">Macalister 1949, 115</ref>) and arranged <rs type="style">horizontally</rs> in eight lines between the two large crosses described above.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The lettering is in half-uncial, tending to decrease in height from top to bottom. <q>The first three letters of line one have wedge-shaped finials, as does the final I of line 2. These do not appear in any of the other 6 lines. Letters of note include the 'OC' A, the half-uncial rather than majuscule S, the open Es, the majuscule R, and the open-bowed B. A large number of the letters are conjoined</q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/ksagt_1.html">Celtic Inscribed Stones Project</ref>). 
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Kilnasaggart">
+                                <placeName type="site">Kilnasaggart (<ref target="https://www.logainm.ie/ga/124024"><hi rend="italic">Cill na Sagart</hi></ref>)</placeName>, 
+                                in the townland of <placeName type="townland">Edenappa</placeName>, 
+                                    <placeName type="county">Co. Armagh</placeName>, 
+                                <geo>54.072275, -6.378783</geo>.
+                            </origPlace>
+                            <origDate notBefore="0650" notAfter="0750" evidence="prosopography" cert="high" datingMethod="#julian" >c. 714 A.D.</origDate>
+                        </origin>
+                        <provenance type="found" when="1853"><p>Photographed by the Earl of Dunraven in 1869, this monument had already been described and illustrated earlier by Reeves (1853) and Reade (1857). A sketch is also given in Tours in Ulster (p. 170), by. J. B. Doyle, 1855 (<ref source="#PET1878">Petrie 1878, 30</ref>). Although no trace of a church building survives, Kilnasaggart (`Church of the Priests') was probably an early church site (<ref target="https://monasticon.celt.dias.ie/showrecord.php?id=2195">Monasticon Hibernicum database</ref>) and is located close to what is believed to be the northern route <hi rend="italic">Slige Midluachra</hi>, one of the five legendary roads from Tara (<ref target="https://en.wikipedia.org/wiki/Slige_Midluachra">Dindsenchas</ref>). Other remains at this strategically important site include an early Christian graveyard (unpublished excavations by Hamlin 1966 and 1968), six small cross-carved stones and a bullaun in the field to the south (<ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/ARM/ARM_032/ARM_032_006/Public/SM7-ARM-032-006.pdf">SMR files</ref>)</p>.
+                        </provenance>
+                        <provenance type="observed">Findspot
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-06-28" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-06" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to also 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="Kilnasaggart.jpg"><desc>Image courtesy of <ref target="https://www.abartaheritage.ie">Abarta Heritage</ref></desc></graphic>
+        <graphic url="Kilnasaggart_2.jpg"><desc>Macalister 1949 sketch from CISP</desc></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#NW">
+                <ab>
+                    <lb n="1"/><w lemma="in" corresp="http://www.dil.ie/28194">IN</w> <w lemma="loc" corresp="http://www.dil.ie/30411">LOC</w> 
+                    <lb n="2"/><w lemma="-so" corresp="https://dil.ie/38191">SO</w> <w lemma="do·immnai" corresp="http://www.dil.ie/17862">TANI
+                        <lb n="3" break="no"/>MMAIRNI</w> 
+                    <lb n="4"/><persName type="attested" ref="#pers002"><persName><name nymRef="Ternóc" type="attested">TERNOHC</name></persName>
+                    <lb n="5"/><w lemma="Mac" type="patronym" corresp="http://www.dil.ie/31166">MAC</w> <persName type="patronym"><name nymRef="Cíarán">CERAN</name></persName>
+                    <lb n="6"/><w lemma="bec" corresp="http://www.dil.ie/5512">BIC</w></persName> <w lemma="íar" corresp="http://www.dil.ie/26931">ER</w> <w lemma="cúl" corresp="http://www.dil.ie/13749">CUL</w>
+                    <lb n="7"/><persName xml:id="stpeter"><name nymRef="Peter" type="apostle" subtype="saint">PETER</name></persName> <w lemma="apstal" corresp="http://www.dil.ie/3887">AP<lb n="8" break="no"/>STEL</w>                  
+                  </ab>
+            </div>
+            <div type="apparatus">
+                 
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>This place, T'Ernóc son of Cíarán the little has bequeathed it under the protection of <persName ref="#stpeter">Peter the apostle</persName></p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The obit of the person named here (<hi rend="italic">T'Ernóc mac Cíaráin Bic</hi>) is recorded in the annals for AD 716 (Annals of Tigernach; see <ref target="https://celt.ucc.ie/published/T100002A/">CELT - Corpus of Electronic Texts</ref>) and AD 714 (Annals of the Four Masters; see <ref target="https://celt.ucc.ie/published/T100005A/index.html">CELT - Corpus of Electronic Texts</ref>) arguably making this Ireland's earliest securably datable inscription. This is also the longest inscription in early Irish and one of the few to contain a verbal form (<hi rend="italic">ta·n-immairni</hi>, 3sg. augmented preterite of <hi rend="italic">do·immnai</hi> 'commits, entrusts, bequeaths' plus 3sg. masc. infixed pronoun (<hi rend="italic">a <hi rend="superscript">N</hi></hi>), referring to LOC). In addition to mentioning a person and function of the stone, the text also, unusually, contains a reference to the Apostle Peter.</p></item>
+                <item n="2"><p>The name T'Ernóc comes from early Irish <hi rend="italic">Iärn</hi> ‘iron-’, <hi rend="italic">Iarnán</hi> ‘the iron one’, adding hypocoristic (common in clerical names) <hi rend="italic">Mo/To Iärn-óc</hi> and resulting in <hi rend="italic">Mernóc/Ternóc</hi> (e.g. <hi rend="italic">Port Mearnóg</hi>/Portmarnock, <hi rend="italic">Innis Mheàrnaig</hi>/Inchmarnock).</p></item>
+                </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#CRA1912"/>Crawford 1912, 
+                        <citedRange>219</citedRange>
+                    </bibl>;   
+                    <bibl><ptr target="#HEN1965"/>Henry 1965, 
+                        <citedRange>118-120</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>114-115, no.946</citedRange>
+                    </bibl>;                                    
+                    <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>27-29, Plate XIX</citedRange>
+                    </bibl>;           
+                     <bibl><ptr target="#STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>289</citedRange>
+                    </bibl>
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

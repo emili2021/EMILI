@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DOW-001. Movilla Cross slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">DOW-001</idno>
+                <idno type="CIIC">953</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="mga-Latn">Middle Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Northern Ireland Sites and Monuments Record Number: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=6365">DOW 006:013</ref>. 
+                                        <material ref="materials.xml#lapis">Stone</material> <objectType ref="objects.xml#mon3">cross slab</objectType>,
+                                          described by <ref source="#MAC1949">Macalister (1949, 120)</ref> as <q>micaceous sandstone</q> 
+                                         (<dimensions unit="m">
+                                            <height>1.21</height>
+                                            <width>0.52</width>
+                                            <depth>0.08</depth>
+                                         </dimensions>). Described by <ref source="#HAM2001">Hamlin (2001, 56)</ref> (see also <ref source="LIO1961">Lionard 1961, 125</ref>) as a damaged, <q>irregularly shaped rectangular slab</q> bearing an incised <rs type="decoration" ref="crosses.xml#ringedCross">ringed cross</rs>. <q>The cross-head has a distinctive feature found on many free-standing crosses: the <rs type="decoration" ref="lobedRing">semi-circular projections on the inner circumference of the ring</rs>. The only other Irish example I have noted on a slab is at Kilbrecan [i.e. Templebrecan] on Inishmore in the Aran Islands [<ref target="https://emili.celt.dias.ie/GAL-009">GAL-009</ref>]. The very precise geometrical construction of the cross-head is also unusual</q>.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pecked</rs> and arranged <rs type="style">vertically downwards</rs> parallel to the stem of the cross (<ref source="#HAM2001">Hamlin 2001, 56</ref>; <ref source="#MAC1949">Macalister 1949, 121</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>Half-uncials with majuscule R, contraction mark over the OR, two forms of E, one open, the other closed, and Ds, two examples open-bowed, with the ascenders bending to the left over the bow</q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/mvile_1.html">Celtic Inscribed Stones Project</ref>).                                    
+                                <height>The letters decease in height, from beginning to end.</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Movilla">
+                                <placeName  type="townland">Movilla (<ref target="https://www.logainm.ie/ga/65869"><hi rend="italic">Maigh Bhile</hi></ref>)</placeName>, <placeName
+                    type="county">Co. Down</placeName>, 
+                                <geo>54.595907, -5.674591</geo>.
+                            </origPlace>
+                            <origDate period="Middle Irish" precision="low" evidence="textual-context" datingMethod="#julian">Tenth or eleventh century A.D.?</origDate>
+                        </origin>
+                        <provenance type="found" when="1840"><p>The inscribed slab was dug up in about 1840 in Movilla graveyard. <q>Movilla was one of UIlster's most important ecclesiastical sites, head church of the Dál Fiatach kings and clearly a large, complex settlement</q> (<ref source="#HAM2001">Hamlin 2001, 56</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4462">Monasticon Hibernicum database</ref>).
+                           </p>
+                        </provenance>
+                        <provenance type="observed"><p>Following discovery, the inscribed stone was <q>removed to an adjoining garden: but afterwards restored to its proper place</q> (<ref source="#MAC1949">Macalister 1949, 120-1</ref>). Now set with a group of Anglo-Norman coffin-lids into the north wall of the ruined Agustinian Abbey church at Movilla (<ref source="#HAM2001">Hamlin 2001, 56</ref>).</p> 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="ga-Latn">Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-07-05" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-06" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to also 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Movilla2.jpg"><desc>Sketch by Macalister (1949, Plate XLV I)</desc></graphic>  
+        <graphic url="Movilla.jpg"><desc>© Crown DfC Historic Environment Division</desc></graphic>  
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="mga" resp="#NW">
+                <ab>
+                     <lb n="1" style="text-direction:verticle"/><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr>O<hi rend="supraline">R</hi></abbr><ex>ÓIT</ex></w></expan>
+                     <w lemma="do" corresp="http://www.dil.ie/17096">DO</w>
+                    <persName><name nymRef="Deirdriu(?)" corresp="https://dil.ie/15249">DERTREND</name></persName>  
+                  </ab>
+            </div>
+            <div type="apparatus">
+                 
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer for Deirdriu(?)</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The name Dertrend (genitive singular form) has not been identified and is difficult to make sense of etymologically. If it is identical with <ref target="https://dil.ie/15249"><hi rend="italic">Deirdriu</hi></ref> (even though presumably referring to a male), the spelling looks rather more Middle Irish (c. 10th–12th centuries) than Old Irish (c. 8th–9th centuries), when we would expect <hi rend="italic">Deirdrenn</hi>.  
+                    </p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>                         
+                    <bibl><ptr target="#HAM2001"/>Hamlin 2001, 
+                        <citedRange>56</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#JOP1966"/>Jope 1966,  
+                        <citedRange>283-4</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#LIO1961"/>Lionard 1961,
+                        <citedRange>125</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>120-21, no.953</citedRange>
+                    </bibl>;                    
+                    <bibl><ptr target="PET1878"/>Petrie 1878,
+                        <citedRange>72</citedRange>
+                    </bibl>                     
+                 </p>
+            </div>           
+        </body>
+    </text>
+</TEI>

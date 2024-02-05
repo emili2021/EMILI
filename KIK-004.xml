@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>KIK-004. Killamery 4. Pseudo-penannular Brooch</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">KIK-004</idno>
+                 <idno type="CIIC">573</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>National Museum of Ireland</repository>
+                         <idno type="invNo">R165</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>A <material ref="materials.xml#silver">silver</material> (with gold, glass and amber) <objectType ref="objects.xml#mon11"><ref target="https://en.wikipedia.org/wiki/Celtic_brooch">pseudo-penannular brooch</ref></objectType> consisting of a ring and a freely moving pin (<dimensions unit="m">
+                                            <height>(length of pin) 0.31</height>
+                                            <width/>
+                                            <depth/>
+                                        </dimensions>) of Hiberno-Viking style (<ref source="#WHI1992">Whitfield and Okasha 1992, 55-60</ref>). The brooch belongs to a group of Irish brooches dated broadly to the ninth century, labelled 'Ardagh -
+type' penannular brooches by <ref source="#OFL1990">Ó Floinn (1990, 187-192)</ref>.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is incised (<ref source="#MAC1949">Macalister (1949, 26)</ref>: '<rs type="execution" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">scratched</rs>') on the back of the brooch in a single-line, above the left panel. <q>The letters are set without framing lines and are not in a straight line. The text is not integrated into the design of the brooch. All these features suggest that the text is not primary but was incised after the brooch was completed</q> (<ref source="#WHI1992">Whitfield and Okasha 1992, 59</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The letters are in insular script (including the Rs), <q>lightly incised [even scratched] and very small in comparison with the scale of the brooch</q> (<ref source="#WHI1992">Whitfield and Okasha 1992, 59</ref>), 
+                                <height>varying between 2.5 and 4.0 mm</height>. 
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Killamery">
+                                <placeName type="townland">Killamery (<ref target="https://www.logainm.ie/ga/1321"><hi rend="italic">Cill Lamraí</hi></ref>)</placeName>, <placeName type="county">Co. Kilkenny</placeName>, 
+                                approx. <geo>52.475399, -7.445995</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1858"><p>Found by a labourer digging in a field in the parish of Killamery in the Summer of 1858. It is not clear if the brooch is associated with the monastic site.                           
+                            <q>Of the <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=1799">monastic site</ref> only a high cross (KK030-008004-), two cross-slabs (KK030-008005-; KK030-008011-), a stone cross (KK030-008013-), the remains of a church (KK030-008003-) and two bullaun stones (KK030-008006-; KK030-008008-) are currently visible at the location</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008005-">Archaeology.ie</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">National Museum of Ireland
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for  EMILI (Early Medieval Irish Latinate Inscriptions) controlled values?</p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>
+</langUsage>
+<textClass>
+<!--<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>-->
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-04-29" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-10" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>        
+        <graphic url="Killamery4.jpg"><desc>Image of the back of the brooch by National Museum of Ireland ©NMI (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</ref>)</desc></graphic>                 
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#MAC1949">                     
+                         <ab>
+                             <lb n="1"/><persName><name nymRef="Cíarodur">CIARO<unclear reason="eccentric_ductus">DUI</unclear>R</name></persName> <expan><w lemma="Mac" type="patronym" corresp="http://www.dil.ie/31166"><abbr><hi rend="supraline">M</hi></abbr><ex>AC</ex></w></expan> C<gap reason="illegible" quantity="1" unit="character"/><unclear reason="eccentric_ductus">R</unclear>
+                 </ab>                 
+            </div>
+            <div type="apparatus">
+                 <listApp>
+  <app loc="1">
+   <rdg source="#MAC1949">Macalister (1949, 26): CIARODUIR <hi rend="supraline">M</hi> AT</rdg>
+  </app>
+ </listApp>                          
+            </div>
+            <div type="translation" xml:lang="en">
+                <p> '[the possession] of Cíarodur son of [?]'</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>As pointed out by <ref source="#WHI1992">Okasha (1992, 59)</ref> <q>Ciarodur is a recorded masculine Old Irish personal name, here probably in the genitive (<ref source="#OBR1962">O'Brien 1962, 545 and 418</ref>, the latter quoting a form in the genitive)</q>. It is a compound of <ref target="https://dil.ie/9011"><hi rend="italic">cíar</hi></ref> 'dark, black' and <ref target="https://dil.ie/33495"><hi rend="italic">odur</hi></ref> 'dun, greyish brown'.</p></item>
+                </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#GRA1859"/>Graves 1858-1859, 
+                        <citedRange>242-250</citedRange>
+                    </bibl>;    
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>25-26, no.573</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#OBR1962"/>O’Brien 1962,
+                         <citedRange>545, 418</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#OFL1990"/>Ó Floinn 1990,
+                         <citedRange>187-192</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#WHI1992"/>Whitfield and Okasha 1992, 
+                        <citedRange>55-60</citedRange>
+                    </bibl>
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GAL-004. Templebrecan 4: Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">GAL-004</idno>
+                 <idno type="CIIC">534</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository><orgName>n/a</orgName></repository>
+                        <idno/>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                             <textLang mainLang="la-Latn">Latin written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023023-">GA110-023023-</ref>. 
+                                        A subrectangular <objectType ref="objects.xml#mon3">cross slab</objectType> of <q><material ref="materials.xml#lapis" source="#HIG1987">limestone</material></q>     
+                                        (<dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023023-">
+                                            <height>0.89</height>
+                                            <width>0.33</width>
+                                            <depth>0.09</depth>
+                                         </dimensions>), bearing a <rs type="decoration" ref="crosses.xml#LatinCross">broadly grooved Latin cross with a circular centre and semicircular terminals</rs> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023023-">Archaeology.ie</ref>).</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is distributed across the four cantons <rs type="style">horizontal</rs>ly. <q>Both the cross and the inscription were <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> and this pocking is neat and accurate</q> incised  across the shaft in two lines (<ref source="#HIG1987">Higgins 1987, 307</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The lettering is half-uncial. The M, A and N are in minuscule forms. The R is half-uncial and the V is almost angular</q>  (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_3.html">Celtic Inscribed Stones Project</ref>).
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Templebrecan">
+                                <placeName type="site">Templebrecan (<ref target="https://www.logainm.ie/en/1398978"><hi rend="italic">Teampall Bhreacáin</hi></ref>)</placeName>, in the townland of <placeName type="townland">Onaght (<hi rend="italic">Eoghanacht</hi>)</placeName>, <placeName type="island">Inishmore (<hi rend="italic">Árainn</hi>)</placeName>, <placeName type="county">Co. Galway</placeName>, 
+                                <geo>53.145874, -9.777290</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1875"><p>First mentioned in 1875 by Samuel Ferguson (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_3.html">CISP</ref>). <q>This is one of four cross slabs (see also GA110-023021-, GA110-023022- and GA110-023024-) now associated with St Brecan’s Grave (GA110-023009-)</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023023-">Archaeology.ie</ref>). St Brecan’s Grave <q>is one of five leabaí or grave-plots (see also GA110-023001-, GA110-023002-, GA110-023003- and GA110-023005-) associated with <hi rend="italic">Teampall Bhreacáin</hi> ['Breacán's church'] (GA110-010001-) and Teampall an Phoill (GA110-010003-) [part of a wider ecclesiastical complex known as <hi rend="italic">na Seacht dTeampaill</hi> 'the Seven Churches']. The multiple grave plot is labelled ‘St Brecan’s Grave’ by Robinson (1980). However, Waddell (1973, 26) equates the grave with Leaba Bhreacáin (GA110-023001-). It consists of a rectangular area (5m NNE-SSW; 2m NNW-SSE) bounded by a kerb of thin limestone slabs. The enclosed area is further subdivided into five slab-covered graves</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023009-">Archaeology.ie</ref>; <ref source="#WAD1973">Waddell 1973, 5-27</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4597">Monasticon Hibernicum Database</ref>).    
+                           </p>
+                        </provenance>
+                        <provenance type="observed">At the findspot, St Brecan’s Grave, placed against its W edge, second slab from the N (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023023-">Archaeology.ie</ref>).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.dedicatory" ref="https://www.eagle-network.eu/voc/typeins/lod/88.html">dedicatory</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-11-14" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-05" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (ringed, Latin, etc)
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Templebrecan_4.jpg"><desc>Sketch by Macalister (1949, Plate I)</desc></graphic>
+         <graphic url="Templebrecan_4b.jpg"><desc>©Photographic Archive, National Monuments Service, Government of Ireland</desc></graphic>
+         <graphic url="Brecans_grave.jpg"><desc>Brecan's Grave, ©Photographic Archive, National Monuments Service, Government of Ireland</desc></graphic>
+        <media url="https://sketchfab.com/3d-models/stone-for-the-seven-romani-inis-mor-65b44e252ad14f2294236a552734aa5a" mimeType="text/html"><desc>3d model on Sketchfab by Patrick Kelley</desc></media> 
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#MAC1949">
+                <ab>
+                     <lb n="1"/><!--<milestone unit="quadrant" n="1"/>--><num value="7" type="RomanNumeral">UII</num>
+                   <!-- <milestone unit="quadrant" n="2"/>--><w lemma="Romanus">RO<lb n="2" break="no"/><!--<milestone unit="quadrant" n="3" break="no"/-->MA<!--<milestone unit="quandrant" n="4" break="no"/>-->NI</w>                  
+                   </ab>
+            </div>
+            <div type="apparatus">           
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Seven Romans</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">                       
+                     <item n="1"><p>This is the second inscription from Templebrecan to contain a Roman numeral (see also <ref target="https://emili.celt.dias.ie/en/inscriptions/GAL-005.html">GAL-005</ref>), which are otherwise rare in Irish inscriptions (I have not yet found another example). An inscribed cross-base from Inishcaltra, Co. Clare mentions 'ten persons' (<hi rend="italic"><ref target="http://www.dil.ie/15125">dechenboir</ref></hi>), likewise unidentified (<ref source="#OKA2001">Okasha and Forsyth 2001, 48-9</ref>). ROMANI appears to be the Latin nominative plural of <hi rend="italic">Romanus</hi>, giving us another Latin language inscription from Templebrecan (see also <ref target="https://emili.celt.dias.ie/GAL-001">GAL-001</ref>).</p></item>
+                     <item n="2"><p>As suggested by <ref source="#OKA2001">Okasha and Forsyth (2001, 48-9)</ref>, this cross slab may <q>mark the grave of seven local <hi rend="italic">romani</hi> (perhaps adherents to the Roman side in the seventh-century Paschal controversy), but it is more plausibly seen as a dedication to the 'Seven Brothers', a group of seven second-century Roman martyrs culted on 10 July</q>, as suggested by <ref source="#MAC1949">Macalister (1949, 6-7)</ref> and named in the Irish martyrologies of Oengus and of Gorman.</p></item>                     
+                    </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>                          
+                    <bibl><ptr target="#HIG1987"/>Higgins 1987, 
+                        <citedRange>vol. 2, 307, no.34</citedRange>
+                    </bibl>;   
+                     <bibl><ptr target="#MAC1913"/>Macalister 1913,
+                    <citedRange>344</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>6, no.534</citedRange>
+                    </bibl>;  
+                    <bibl><ptr target="#OKA2001"/>Okasha and Forsyth 2001,
+                         <citedRange>48-9</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>vol. 2, 21, Plate XIV</citedRange>
+                    </bibl>; 
+                     <bibl><ptr target="#STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>288</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="WAD1973"/> Waddell 1973,
+                        <citedRange>21, no.13</citedRange>
+                    </bibl>
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

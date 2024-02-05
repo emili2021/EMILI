@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GAL-005. Templebrecan 5: Inscribed Stone</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">GAL-005</idno>
+                 <idno type="CIIC">535</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository><orgName>n/a</orgName></repository>
+                        <idno/>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-010014-">GA110-010014-</ref>. 
+                                        An <objectType ref="objects.xml#mon5">inscribed stone</objectType> of <q><material ref="materials.xml#lapis" source="#HIG1987">limestone</material></q>     
+                                        (<dimensions unit="m" source="#HIG1987">
+                                            <height>1.18</height>
+                                            <width>0.14</width>
+                                            <depth/>
+                                         </dimensions>) re-used as building material.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <q><rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> with a small point</q> (<ref source="#HIG1987">Higgins 1987, 382</ref>) in a single line. <ref source="#WAD1973">Waddell (1973, 9)</ref> notes that it is carved on a 53cm long raised band and that the surface of the stone is damaged after the word CANOIN.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The lettering is half-uncial. One of the minuscule N's is rounded, the other has a flattish top. The two A's also differ from each other. One is in a normal minuscule form, the other is almost square. One of the Os is smaller than the others, and the two Rs are also different from each other. One is shaped like an open-bowed P, the other more like a normal half-uncial R. The final I and N may have wedge-shaped finials</q>  (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_4.html">Celtic Inscribed Stones Project</ref>).
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#placename" ref="origPlace.xml#Templebrecan">
+                                <placeName type="site">Templebrecan (<ref target="https://www.logainm.ie/en/1398978"><hi rend="italic">Teampall Bhreacáin</hi></ref>)</placeName>, in the townland of <placeName type="townland">Onaght (<hi rend="italic">Eoghanacht</hi>)</placeName>, <placeName type="island">Inishmore (<hi rend="italic">Árainn</hi>)</placeName>, <placeName type="county">Co. Galway</placeName>, 
+                                <geo>53.145963, -9.777803</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1878"><p>First mentioned in 1878 by Petrie (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_4.html">CISP</ref>) at Teampall Bhreacáin ['Breccán's church'] (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-010001-">GA110-010001-</ref>). The site is a <q>monastic complex known as na Seacht Teampaill/the Seven Churches, including Teampall Bhreacáin... and a number of associated domestic buildings (GA110-010006- to GA110-010013-), four leachtaí (GA110-023001- to GA110-023003- and GA110-023009-) and numerous cross slabs (GA110-023010- and GA110-023013- to GA110-023024-)</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-010004--">Archaeology.ie</ref>; <ref source="#WAD1973">Waddell 1973, 5-27</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4597">Monasticon Hibernicum Database</ref>).
+                           </p>
+                        </provenance>
+                        <provenance type="observed">At the findspot, on the internal wall-face of the W gable near the south corner, of Teampall Bhreacáin (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-010014-">Archaeology.ie</ref>; <ref source="#MAC1949">Macalister 1949, 7</ref>).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-12-13" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Templebrecan_5.jpg"><desc>Sketch by Macalister (1949, Plate II)</desc></graphic> 
+         <graphic url="Templebrecan_5b.jpg"><desc>©Photographic Archive, National Monuments Service, Government of Ireland</desc></graphic>  
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#MAC1949">
+                <ab>
+                     <lb n="1"/><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr>OR</abbr><ex>ÓIT</ex></w></expan>                
+                     <w lemma="ar" corresp="http://www.dil.ie/3902">AR</w> <num value="2" type="RomanNumeral">II</num>
+                    <w lemma="canóin" corresp="http://www.dil.ie/8161">CANOIN</w>                  
+                   </ab>
+            </div>
+            <div type="apparatus">
+             <!-- <listApp>
+ <!-\- <app loc="1">
+   <note></note>
+  </app>-\->
+ </listApp>          -->
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer on behalf of the two canons</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>There does not appear to be an abbreviation stroke over the OR (usually for <hi rend="italic">oróit</hi>). This also appears to be the case in the now lost <ref target="https://emili.celt.dias.ie/GAL-003">Templebrecan 3</ref>.                       
+                    </p></item>
+                    <item n="2"><p>This is the second inscription from Templebrecan to contain a Roman numeral (see also <ref target="https://emili.celt.dias.ie/GAL-004">Templebrecan 4</ref>), which are otherwise rare in Irish inscriptions (I have not yet found another example). An inscribed cross-base from Inishcaltra, Co. Clare mentions 'ten persons' (<hi rend="italic"><ref target="http://www.dil.ie/15125">dechenboir</ref></hi>), likewise unidentified (<ref source="#OKA2001">Okasha and Forsyth 2001, 48-9</ref>).</p></item>
+                       </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>                          
+                    <bibl><ptr target="#HIG1987"/>Higgins 1987, 
+                        <citedRange>vol. 2, 382, no.102</citedRange>
+                    </bibl>;                        
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>7, no.535</citedRange>
+                    </bibl>;       
+                     <bibl><ptr target="#OKA2001"/>Okasha and Forsyth 2001,
+                         <citedRange>48-9</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>vol. 2, 21, Plate XIV</citedRange>
+                    </bibl>;     
+                     <bibl><ptr target="#STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>288</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#WAD1973"/> Waddell 1973,
+                        <citedRange>9, 16, no.1</citedRange>
+                    </bibl>
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

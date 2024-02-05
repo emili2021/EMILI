@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FER-001. Killadeas Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">FER-001</idno> 
+                 <idno type="CIIC">958</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                      
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Northern Ireland Sites and Monuments Record Number: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=9781">FER 192:001</ref>. 
+                                        <material ref="materials.xml#lapis">Stone</material> <objectType ref="objects.xml#mon3">cross slab</objectType>,                                          
+                                        <dimensions unit="m">
+                                            <height>1.57</height>
+                                            <width>0.91</width>
+                                            <depth>0.11</depth>
+                                         </dimensions> (converted from <ref source="#MAC1945">Macalister 1949, 123)</ref>. A multiple cup-marked/bullaun stone with a <rs type="decoration" ref="crosses.xml#cross-of-Arcs">cross of arcs</rs> on the opposite side, <q>enriched with triquetras upon the expansions of the arms, and interlacements (now defaced beyond recovery) in the cantons. The cross is mounted on a stem, forked below, and supported, as it were, upon a boat-shaped base</q>  (<ref source="#MAC1945">Macalister 1949, 123</ref>; <ref source="#LIO1961">Lionard 1961, 110</ref>; <ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/FER/FER_192/FER_192_001/Public/SM7-FER-192-001-001C.pdf">NISMR file</ref>; image below provided by <ref target="http://www.megalithicireland.com/Killadeas.htm">Megalithic Ireland</ref>).                                                                         
+                                       </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>According to <ref source="#MAC1945">Macalister (1949, 123)</ref> <q>a much defaced</q> inscription runs vertically upwards in four lines <q>on the dexter side of the stem</q> of the cross.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The entry in the <ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kdeas_1.html">Celtic Inscribed Stones Project</ref> database notes that the text is <q>insular half-uncial with the 'OC' A, majuscule R, curved L and T and a D with the an ascender which bends to the left over the bow</q>.                                            
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Killadeas">
+                                 <placeName type="site">Killadeas (<ref target="https://www.logainm.ie/ga/130638"><hi rend="italic">Cill Chéile Dé</hi></ref>)</placeName>, townland of <placeName type="townland">Rockfield</placeName>,  <placeName
+                    type="county">Co. Fermanagh</placeName>, 
+                                <geo>54.433987, -7.683124</geo>.
+                            </origPlace>
+                             <origDate notBefore="0700" notAfter="0900" precision="low" evidence="textual-context" datingMethod="#julian">eighth/ninth century A.D.?</origDate>
+                        </origin>
+                        <provenance type="found" when="1935"><p><ref source="#MAC1945">Macalister (1949, 123)</ref> states that the stone was found within the cemetery of the parish church of Killadeas, and that it was first published by Lady D. <ref source="#LOW1935">Lowry-Corry</ref> in 1935. The site is described by <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=9781">NISMR database</ref> as follows: <q>A modern church and graveyard now occupy an earlier site (<ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4096">Monasticon Hibernicum Database</ref>). N of the modern church are three sides of an earlier rectangular graveyard, orientated NNW-SSE. It contains many C18th gravestones and also undecorated grave-markers, some of which could be Early Christian. According to Lowry-Corry, the original church site is an a hollow N of the graveyard on the other side of the road, but there are now no visible remains of it. In the graveyard are four carved stones, possibly dating to C9-11th</q>.</p>
+                        </provenance>
+                        <provenance type="observed">Findspot 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>
+            <!--<charDecl>
+<!-\- <glyph xml:id="crux">
+  <mapping type="standard">†</mapping>
+  <mapping type="simplified">(crux)</mapping>
+  <mapping type="g-london-diplomatic">†</mapping>
+ </glyph>-\->
+</charDecl>-->
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.blessing" ref="https://www.eagle-network.eu/voc/typeins/lod/424.html">Blessing</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-08-07" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-04" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (ringed, Latin, etc)
+</change>
+    <change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Killadeas_1.jpg"><desc>Sketch by Macalister (1949, Plate XLVII)</desc></graphic>
+        <graphic url="Killadeas_1b.jpg"><desc>Image courtesy of José, collaborator at http://www.megalithicireland.com</desc></graphic>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#MAC1949">
+                <ab>
+                     <lb n="1" style="text-direction:verticle"/><lb n="1"/><w lemma="bendacht" corresp="http://www.dil.ie/5661">BENDACHT</w>
+                     <lb n="2"/><w lemma="ar"  corresp="http://www.dil.ie/3902">AR</w> <persName><name nymRef="Art" corresp="www.dil.ie/4321 ">ART</name></persName>
+                     <lb n="3"/><w lemma="auë" corresp="http://www.dil.ie/42573">U</w> <persName><name nymRef="Lorcán" corresp="http://www.dil.ie/30691">LUR
+                         <lb n="4" break="no"/>CAIN</name></persName>
+                  </ab>
+            </div>
+            <div type="apparatus">
+                             
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A blessing on behalf of Art grandson/descendant of Lorcán.</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The inscriptions appears to be no longer legible (inspection needed) and the edition here is baced on Macalister's reading.</p></item>
+                        <item n="1"><p>The formula type <hi rend="italic">bendacht ar/for</hi>... 'a blessing on behalf of/on...' (ususally followed by <hi rend="italic">anmain</hi> 'soul') is less common than the <hi rend="italic">oróit do</hi> type (compare <ref source="#OKA2001">Okasha and Forsyth 2001, 28</ref>).</p></item>
+                    <item n="3"><p>The person named in this inscription (Art u Lorcáin) remains as yet unidentified.</p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>                     
+                      <bibl><ptr target="#LIO1961"/>Lionard 1961,
+                        <citedRange>110-111</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#LOW1919"/>Lowry-Corry 1935,
+                        <citedRange>24-26</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>123, no.958</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#OKA2001"/>Okasha and Forsyth 2001,
+                         <citedRange>28</citedRange>
+                    </bibl>                    
+                 </p>
+            </div>           
+        </body>
+    </text>
+</TEI>

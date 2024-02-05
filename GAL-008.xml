@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GAL-008. Templebrecan 8: Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">GAL-008</idno>
+                 <idno type="CIIC">538</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository><orgName>n/a</orgName></repository>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023013-">GA110-023013-</ref>. 
+                                        A large, rectangular <objectType ref="objects.xml#mon3">cross-slab</objectType>, of <q><material ref="materials.xml#lapis" source="#HIG1987">limestone</material></q>     
+                                        (<dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023013-">
+                                            <height>1.41</height>
+                                            <width>0.46</width>
+                                            <depth>0.12</depth>
+                                         </dimensions>) <q> with a <rs type="decoration" ref="crosses.xml#LatinCross">two line Latin cross having circular expansions in the intersections and at the terminals</rs>. There are also a pair of linear flanking crosses (or <rs type="decoration" ref="crosses.xml#ThievesCrosses">thieves’ crosses</rs>) in each of the upper quadrants</q>.</p></support> 
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>A three-line inscription, now almost illegible, is positioned across the lower two quadrants of the cross. 
+                                    Both the cross and the inscription have been executed by <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocking</rs> (<ref source="#HIG1987">Higgins 1987, 324</ref>).
+                                     </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The lettering is half-uncial. <q>The drawing in <ref source="#HIG1987">Higgins (1987, Fig. 46)</ref>, shows only an half-uncial R, an A in the 'OC' form, and a majuscule S</q>. He also <q>notes the deterioration in the stone's condition, and the legibility of the inscription, since Macalister's visit. His illustration of the stone shows only a handful of legible letters. Despite this, Higgins follows Macalister's reading, which, he comments, `seems likely to be accurate'</q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_7.html">Celtic Inscribed Stones Project</ref>).
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Templebrecan">
+                                <placeName type="site">Templebrecan (<ref target="https://www.logainm.ie/en/1398978"><hi rend="italic">Teampall Bhreacáin</hi></ref>)</placeName>, in the townland of <placeName type="townland">Onaght (<hi rend="italic">Eoghanacht</hi>)</placeName>, <placeName type="island">Inishmore (<hi rend="italic">Árainn</hi>)</placeName>, <placeName type="county">Co. Galway</placeName>, 
+                                <geo>53.145856, -9.777971</geo>.
+                            </origPlace>
+                            <origDate notBefore="0700" notAfter="0900" precision="low" evidence="textual-context" datingMethod="#julian">eighth/ninth century A.D.?</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1878"><p>First mentioned in 1878 by Petrie (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_7.html">Celtic Inscribed Stones Project</ref>). This is one of eight cross-slabs (see also GA110-023014- to GA110-023020-) associated with <hi rend="italic">Leaba Bhreacáin</hi> ['Breacán's bed/grave'], <q>one of five [leacht] leabaí or grave-plots associated with <hi rend="italic">Teampall Bhreacáin</hi> (GA110-010001-) ['Breacán's church']. Along with Teampall an Phoill (GA110-010003-), <hi rend="italic">Teampall Bhreacáin</hi> is part of a wider ecclesiastical complex known as <hi rend="italic">na Seacht dTeampaill</hi> 'the Seven Churches'. <hi rend="italic">Leaba Bhreacáin</hi>, is to the SW of <hi rend="italic">Teampall Bhreacáin</hi> and consists of a low subrectangular platform (c. 5.1m N-S; 4-5m E-W; H 0.35m) that is defined by a kerb of limestone blocks (T 0.12-0.38m)</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023001-">Archaeology.ie</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4597">Monasticon Hibernicum Database</ref>). 
+                           </p>
+                        </provenance>
+                        <provenance type="observed">Now lying face down c. 1m to the W of the leaba (<ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023013-">Archaeology.ie</ref>).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>          
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="ga-Latn">Irish written in latin script</language>   
+<language ident="sga-Latn">Old Irish written in latin script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-04-20" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-06" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (ringed, expansional, etc)
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+        <facsimile>        
+            <graphic url="Templebrecan_8.jpg"><desc>Sketch by Macalister (1949, Plate II)</desc></graphic>
+    </facsimile>
+        <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#MAC1949">
+                <ab>
+                     <lb n="1" /><!--<milestone unit="quadrant" n="3"/>--><w lemma="oróit" corresp="http://www.dil.ie/33938">OR<!--<milestone unit="quadrant" n="4"/>-->AIT</w>
+                     <lb n="2" /><!--<milestone unit="quadrant" n="3"/>--><w lemma="ar" corresp="http://www.dil.ie/3902">AR</w> <w lemma="ainim" corresp="https://dil.ie/1402">A<!--<milestone unit="quadrant" n="4"/>-->NMAIN</w>
+                     <lb n="3" /><!--<milestone unit="quadrant" n="3"/>--><persName><name nymRef="Scandlán">SCAN<!--<milestone unit="quadrant" n="4"/>-->DLAIN</name></persName>
+                   </ab>
+            </div>
+            <div type="apparatus">
+              <listApp>
+  <app loc="1">
+   <rdg source="#PET1878">Petrie, G. (1878): ORAIT AR ANMAIN SEMBLAIN</rdg>
+  </app>
+ </listApp>          
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer on behalf of the soul of Scandlán</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The reading above is by <ref source="#MAC1945">Macalister (1949, 7)</ref>. The inscription is currently face down and so cannot be examined. It appears to have been last seen by <ref source="#WAD1973">Waddell (1973, 17)</ref> when only the word ORAIT and the letter S on the third line could be made out.</p></item>
+                    <item n="2"><p>The formula type <hi rend="italic">oróit ar anmain</hi> 'a prayer on behalf of the soul...' is less common than the simpler <hi rend="italic">oróit do/ar</hi> type. <ref source="#OKA2001">Okasha and Forsyth (2001, 28)</ref> note that Macalister lists seven examples, three from Clonmacnoise and one each from Fuerty, Co. Roscommon; Kilcummin, Co. Mayo; <ref target="https://emili.celt.dias.ie/KIK-001">Killamery, Co. Kilkenny</ref> and this one.
+                    </p></item>                       
+                    <item n="3"><p>The personal name Scandlán is fairly common in early medieval Ireland and includes a <hi rend="italic">Scandlán h-Ui Eirc, sui-epscop <hi rend="subscript">7</hi> abb Inse Cathaig</hi> 'learned bishop and abbot of Scattery island' who's obit occurs in the Annals of Inishfallen in the year 974 AD (<ref target="https://celt.ucc.ie/published/G100004.html">CELT - Corpus of Electronic Texts</ref>). Linguistically, this inscription could be Old Irish (8/9th century). It is also noteworthy that the name Scandlán is also found twice on cross-slabs (GA119-020004- and GA119-020008-) from another site on the island: <hi rend="italic">Teaglach Éinne/Cill Éinne</hi> (<ref source="#MAC1949">Macalister 1949, 5 nos. 529 and 530</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=1541">Monasticon Hibernicum Database</ref>).
+                    </p></item>
+                       </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>                          
+                    <bibl><ptr target="#HIG1987"/>Higgins 1987, 
+                        <citedRange>vol. 2, 324, no.50</citedRange>
+                    </bibl>;                        
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>7, no.538</citedRange>
+                    </bibl>;       
+                     <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>vol. 2, 22, Plate XVI</citedRange>
+                    </bibl>;     
+                     <bibl><ptr target="#STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>288</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#WAD1973"/> Waddell 1973,
+                        <citedRange>17, no.3</citedRange>
+                    </bibl>
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

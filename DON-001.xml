@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DON-001. Clonca Inscribed Stone</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">DON-001</idno>
+                <idno type="CIIC">948</idno>                
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="mga-Latn">Middle Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=DG012-002003-">DG012-002003-</ref>. 
+                                        An <objectType ref="objects.xml#mon5">inscribed <material ref="materials.xml#lapis">stone</material></objectType>,                                           
+                                         (<dimensions unit="cm">
+                                            <height>0.15</height>
+                                            <width>0.32</width>
+                                            <depth/>
+                                         </dimensions>, converted from <ref source="#MAC1945">Macalister 1949, 115</ref>). 
+                                        The stone has been trimmed for re-use and built into the exterior west wall of the ruined church, near the north-west corner. It also has a carved representation of what looks to be mason's tools: a <rs type="decoration">mallet and chisel</rs>, positioned above the inscription (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=DG012-002003-">Archaeology.ie</ref>; <ref source="#HAM2001">Hamlin 2001, 55</ref>).</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><!--The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pecked</rs>.--> In the stone's current position, the inscription is in three, damaged and incomplete <rs type="style">horizontal</rs> lines. 
+                                   </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>As noted by <ref source="#MAC1945">Macalister (1949, 116)</ref> the letters are quite crudely executed in half-uncial lettering. Nevertheless <q>some letter-forms are of interest. Most of the A's are in the shape of a minuscule n with a short stroke off from the top right-hand corner. One A in line two has a sqare bow. Two of the Ds are open-bowed, two have a closed bow. In all four cases the ascender bends over the bow to the left. The one U is square, while the two Ls are curved in a fashion reminiscent of those at Lanrivoar in Brittany [LRVOA/1]. The S is half-uncial, while the two Gs differ markedly. The example in line one is in the shape of a crescent moon, with the opening facing up, with a separate horizontal stroke above it. The inscription also has two different Rs; one majuscule the other half-uncial. </q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/clonc_1.html">Celtic Inscribed Stones Project</ref>).
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Clonca">
+                                <placeName type="townland">Clonca (<ref target="https://www.logainm.ie/ga/775"><hi rend="italic">Cluain Catha</hi></ref>)</placeName>, <placeName type="county">Co. Donegal</placeName>, 
+                                <geo>55.267904, -7.173646</geo>.
+                            </origPlace>
+                            <origDate notBefore="1130" notAfter="1199" precision="low" evidence="textual-context" datingMethod="#julian">c. 12th century A.D.</origDate>
+                        </origin>
+                        <provenance type="found" when="1891"><p><ref source="#MAC1945">Macalister (1949, 115)</ref> credits W.J. Doherty with the first mention of this inscribed stone in 1891 at Clonca early church site (<ref target="https://monasticon.celt.dias.ie/showrecord.php?id=2639">Monasticon Hibernicum database</ref>). <q>There is much material attesting to the long ecclesiastical use of the site, from the Early Christian period to 1827</q> (<ref source="#HAM2001">Hamlin 2001, 55</ref>). 
+                            Apart from the later church ruin, which incorporates earlier fragments, there are two high crosses, a bullaun stone, a cross-slab, a standing stone and a holy well, along with two later graveslabs, one of which has an inscription in the Lombardic script and a carved hurley and ball (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=DG012-002001-">Archaeology.ie</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">Findspot 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="mga-Latn">Middle Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.testament" ref="https://www.eagle-network.eu/voc/typeins/lod/63.html">Testament</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-07-27" who="#NW">
+Nora White created xml doc
+</change>
+ <change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Clonca.jpg"><desc>©Photographic Archive, National Monuments Service, Government of Ireland</desc></graphic>
+         <graphic url="Clonca2.jpg"><desc>Sketch by Macalister (1949, Plate XLVI)</desc></graphic>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="mga" resp="#NW">
+                <ab>
+                      <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>AN <w lemma="auë" corresp="http://www.dil.ie/42573">O</w> 
+                    <persName><name nymRef="Dubdagán">DUBDAGAN</name></persName> 
+                   <w lemma="do·gní" corresp="http://www.dil.ie/17752">DORI<lb n="2" break="no"/><supplied reason="lost" cert="medium">GNI</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><unclear reason="damaged">O</unclear>G<space unit="character" extent="1"/> SO<space unit="character" extent="1"/> 
+                     <w lemma="do" corresp="http://www.dil.ie/17096">DO</w><space unit="character" extent="1"/>  
+                    <persName><name nymRef="Domnall" corresp="http://www.dil.ie/18133">DOMNALL</name></persName><space unit="character" extent="1"/>  <w lemma="auë" corresp="http://www.dil.ie/42573">O</w> R<gap reason="lost" extent="unknown" unit="character"/>
+                    <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="sund" corresp="http://www.dil.ie/39303">SUNN</w>
+                  </ab>
+            </div>
+            <div type="apparatus">
+                
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>...an Ó Dubdagáin has made? this... for Domnall Ó R...here</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Unfortunately we are missing quite a bit of this inscription, proably due to trimming of the stone for use as a building block. It is probable that AN at the beginning is the end of a personal name (such as Flann, Éogan, Colmán, Bran), Ó Dubdagáin (O'Doogan), the family name (literally 'grandson/descendant of <hi rend="italic">Dubdagán</hi>, a compound of <hi rend="italic">dub</hi> 'black' + the name <hi rend="italic" corresp="http://www.dil.ie/14147">Dagán</hi>). However, DUBDAGAN rather than the expected gen. sg. DUBDAGAIN is found here. This family name is also recorded in a craft context at Devenish in Co. Fermanagh (<ref source="#HAM2001">Hamlin 2001, 55, 59</ref>).</p></item> 
+                     <item n="2"><p> There is a possible verb occuring in this inscription. DORI at the end of line one may, as suggested by Macalister, be a 3sg. (relative) augmented preterite form of <hi rend="italic">do·gní</hi> 'to make' (perhaps <hi rend="italic">do·rigni</hi> '(who) has made'). Not surprisingly, this verb is quite common in inscriptions where the craftsperson is named (<ref source="#CAR2015">Carpenter and Moss 2015, 512, 532-3</ref>) and the suggested form is the one most commonly found, for example, at Inishcaltra, Co. Clare (<ref source="#OKA2001">Okasha and Forsyth 2001, 52-3</ref>). </p></item>
+                         <item n="3"><p> On the next line, what survives appears to suggest a noun ending in -og. Macalister suggested <hi rend="italic" corresp="http://www.dil.ie/9550">cloch</hi> 'stone' with G for CH, but this is unlikely. Also, the expected acc. sg. form of this ā-stem noun would be <hi rend="italic">cloich</hi>. Furthermore, if we take the following SO as the demonstrative particle, then we would also expect the article <hi rend="italic">in</hi> to come before the noun (<hi rend="italic">in ...og-so</hi> 'this ?'). Whatever was made (?) by Ó Dubdagáin was for (DO) someone with the quite common name <hi rend="italic">Domnall</hi>. The following OR suggests a family name Ó (earlier <hi rend="italic" corresp="http://www.dil.ie/42573">auë</hi> 'grandson, descendant') and a patronym beginning with R. In the final line the surviving four letters appear to represent a form of the word <hi rend="italic" corresp="http://www.dil.ie/39303">sund</hi> 'here'.</p></item>
+                   <item n="4"><p>The carving of a mason's tools on this stone suggests a medieval, rather than early Christian date. The spelling Ó for ‘descendant’ and <hi rend="italic">sunn</hi> for <hi rend="italic">sund</hi> also suggest a rather late inscription.</p></item>                       
+                       </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#CAR2015"/>Carpenter and Moss 2015,
+                    <citedRange>Appendix 1, 512, 532-533</citedRange>
+                    </bibl>;
+                   <bibl><ptr target="#HAM2001"/>Hamlin 2001, 
+                        <citedRange>55</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#LAC1983"/>Lacy 1983, 
+                    <citedRange>254-256</citedRange>
+                    </bibl>;
+                   <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>115-116, no.948</citedRange>
+                    </bibl>;    
+                     <bibl><ptr target="#OKA2001"/>Okasha and Forsyth 2001,
+                         <citedRange>52-53</citedRange>
+                    </bibl>
+                 </p>
+            </div>           
+        </body>
+    </text>
+</TEI>

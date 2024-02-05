@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CAV-001. Moybologue Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">CAV-001</idno>                
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=CV034-046002-">CV034-046002-</ref>. 
+                                        <material ref="materials.xml#lapis">Stone (possibly limestone)</material> <objectType ref="objects.xml#mon3">cross slab</objectType>                                          
+                                         (<dimensions unit="m">
+                                            <height>0.73</height>
+                                            <width>0.54</width>
+                                            <depth>0.12</depth>
+                                         </dimensions> (<ref source="#CAL2021">Callaghan and Stifter 2020, 258</ref>).                                     
+                                    Occupying much of the area below the inscription is a <rs type="decoration" ref="crosses.xml#outlineCross">double outline cross</rs>, formed from two <rs type="decoration" ref="crosses.xml#equal-armedCross">equal-armed</rs> outline crosses, one set into the other. Both crosses are formed of wide, shallow grooves, substantially wider than those of the inscription and are quite neatly executed, albeit with some irregularities, notably the dexter arm of the outer cross. The top terminal of the outer cross is open-ended and does not extend far past the terminal of the inner cross, perhaps to avoid the inscription. Its dexter and lower terminals are closed, while damage has removed the sinister terminal. The inner cross has closed terminals and there is an expansion at its intersection, somewhat irregular but more lozenge-shaped than curvilinear. This is mirrored by a slighter expansion in the outer cross (Description of the cross form supplied by Kate Colbert, NUIG). There is a spall at the top right of the slab just above the inscription.
+                                    </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pecked</rs> and located above the cross in a single <rs type="style">horizontal</rs> line. 
+                                    There is a space of one letter width following the first word.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>Ten fully preserved letters, mostly in Insular half-uncial ductus, can be recognised on the stone. The two Rs show a distinctly minuscule form. The last letter is most likely a capital N, in a shape that is very  close  to  half-uncial  U,  in  that  the  middle  stroke  goes  from  the lower  left  position  to  the middle right, contrary to the usual way of writing it. Capital N is rarer than its half-uncial counterpart on inscrib-ed  stones,  but  examples  of  it  can  be  found occasionally</q> (<ref source="#CAL2021">Callaghan and Stifter 2020, 258</ref>).
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Moybologue">
+                                 <placeName type="parish">Moybologue (<ref target="https://www.logainm.ie/ga/1900"><hi rend="italic">Maigh Bolg</hi></ref>)</placeName>, townland of <placeName type="townland">Relagh Beg</placeName>, <placeName type="county">Co. Cavan</placeName>, 
+                                <geo>53.871929, -6.950527</geo>.
+                            </origPlace>
+                            <origDate notBefore="0700" notAfter="0900" precision="low" evidence="textual-context" datingMethod="#julian">eighth or ninth century A.D.</origDate>
+                        </origin>
+                        <provenance type="found" when="2017"><p>The inscription on the cross slab was first detected by Brian Callaghan of Moybologue Historical Society in July 2017 while preparing for a community grave-marker inscription recording survey in <placeName type="site">Moybologue</placeName> graveyard (<ref source="#CAL2021">Callaghan and Stifter 2020, 258</ref>). This is an early ecclesiastical site (<ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4844">Monasticon Hibernicum Database</ref>) and contains the remains of the later parish church of Moybologue (CV034-046001-). <q>Within the graveyard [CV034-046007-] there are two cross slabs, [including this] one with an early inscription, a font, three churchyard crosses and two fragments of crosses. The two graveslabs are both probably seventeenth century in date. There is also a fragment of an inscription which remains indecipherable, a holed stone that is part of a millwheel, and a stone with a single cup-mark. The curving wall of the graveyard at S with the road curving about the graveyard E-S-W, a field bank W-N enclosing the motte and bailey (CV034-045----) and a field bank NE-E could be interpreted as a large oval ecclesiastical enclosure (CV034-046008-)</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=CV034-046001-">Archaeology.ie</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">Findspot 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-07-08" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-06" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to also 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <media url="https://sketchfab.com/3d-models/cv034-046002-cross-slab-3871ab98c7cc4a93bbeecf659e7cb647" mimeType="text/html"><desc>3d model on Sketchfab by Digital Heritage Age</desc></media>
+        <!--<graphic url="Moybologue.jpg"><desc>Screenshot of 3d model by Gary Dempsey</desc></graphic> -->          
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#CAL2020">
+                <ab>
+                      <lb n="1"/><expan><w lemma="oróit" corresp="http://www.dil.ie/33938">
+                          <abbr><hi rend="supraline">OR</hi></abbr><ex>ÓIT</ex></w></expan>
+                    <space extent="1" unit="character"/> 
+                     <w lemma="do" corresp="http://www.dil.ie/17096">DU</w>
+                    <persName><name nymRef="Ailbran">ULBRUN</name></persName>  
+                  </ab>
+            </div>
+            <div type="apparatus">
+                
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer for Ailbran</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>In this inscription we find the variant <hi rend="italic">du</hi> of the preposition <hi rend="italic">do</hi> ‘to, for’. <q><hi rend="italic">Du</hi> is  very rare on inscriptions: among the 67 collected in <hi rend="italic"><ref source="#STO1903">Thesaurus Palaeohibernicus</ref></hi> it is found four times, but it is entirely absent from <ref source="#OKA2001">Okasha and Forsyth’s Munster corpus</ref>.The variation <hi rend="italic">do/du</hi> gives no firm linguistic dating criterion for the inscription since the variant with <hi rend="italic">u</hi> was a rare option in almost all periods of Old Irish</q> (<ref source="#CAL2021">Callaghan and Stifter 2020, 259</ref>).</p></item>
+                    <item n="2"><p>There are several possible interpretations for the form ULBRUN, which is in the place of the personal name in the formula (<hi rend="italic">oróit do X</hi>), as outlined by <ref source="#CAL2021">Stifter (2020, 259-260)</ref>: 1. <hi rend="italic">Ulbrún</hi>, a hibernised rendering of the Anglo-Saxon female name <hi rend="italic">Wulfrūn</hi> ‘wolf rune’; 2. <hi rend="italic">Ulbrun</hi>, dative of the otherwise unattested OIr. <hi rend="italic">o</hi>-stem names *<hi rend="italic">Ulbranor</hi> 'beard raven' or *<hi rend="italic">Aulbran</hi> 'wall raven'; or, and the most likely, 3. <hi rend="italic">Ailbran</hi> ‘stone-raven’, a compound of <hi rend="italic">ail</hi> ‘stone’ + <hi rend="italic">bran</hi> 'raven'. <q>In this case it has to be assumed that  initial <hi rend="italic">ail</hi>-  alternated with <hi rend="italic">ul</hi>-, just like <hi rend="italic">ailad</hi>  ‘tomb,  sepulchre’ alternates with <hi rend="italic">aulad, elad, ilad, ulad</hi>. The name <hi rend="italic">Ailbran</hi> does not appear in the genealogies, but two clerics, from <hi rend="italic">Tréoit </hi>and <hi rend="italic">Clúain Dolcáin</hi>, bear that name in the Annals of Ulster 774 and 781. <ref source="#UHL1993">Uhlich (1993, 148)</ref> compares also the name <hi rend="italic">Ailbrenn</hi>, the superior of <hi rend="italic">Clúain Iraird</hi> who died in 884 (Annals of Ulster). Moybologue Old Graveyard is c.50km away both from Trevet and from Clonard, which is not a very long distance. Maybe there is therefore a connection between <hi rend="italic">Ulbrun</hi> and abbot <hi rend="italic">Ailbran</hi> of <hi rend="italic">Tréoit</hi> who died 774 (Annals of Ulster), or with the superior <hi rend="italic">Ailbrenn</hi> of <hi rend="italic">Clúain Iraird</hi></q> (<ref source="#CAL2021">Callaghan and Stifter 2020, 259-260</ref>).</p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#CAL2020"/>Callaghan and Stifter 2020,
+                        <citedRange>257-260</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#OKA2001"/>Okasha and Forsyth 2001                        
+                    </bibl>;
+                    <bibl><ptr target="#UHL1993"/>Uhlich 1993,
+                    <citedRange>148</citedRange>
+                    </bibl>
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

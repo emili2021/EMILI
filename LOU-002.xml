@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>LOU-002. Monasterboice Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">LOU-002</idno> 
+                 <idno type="CIIC">581</idno> 
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang mainLang="mga-Latn">Middle Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=LH021-062013-">LH021-062013-</ref>. 
+                                        An irregular-shaped, greenish-coloured, <material ref="materials.xml#stone">stone</material> <objectType ref="objects.xml#mon3">cross slab</objectType>,                                           
+                                         <dimensions unit="m">
+                                            <height>1.72</height> 
+                                            <width>0.77</width> 
+                                            <depth></depth>
+                                         </dimensions>, with a large, three-lined frame enclosing a <rs type="decoration" ref="crosses.xml#expansionalCross">cross with a circular expansion at the centre and half round expansions at the terminals</rs> (<ref source="#LIO1961">Lionard 1961, 128-9</ref>). </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is positioned vertically (in relation to the cross) in a single line running parallel to the shaft and across two quadrants.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The inscription is in half-uncial.There are three different forms of R, the first half-uncial and angular, the second also half-uncial but more rounded and the third form is majuscule, with an open-bow. The D has a leftwards leaning ascender with a wedge-shaped finial, and the ascender of the U extends below where is it joined by the curved stroke from the left</q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/mboic_2.html">Celtic Inscribed Stones Project</ref>).
+                                <height/>Letter height approx. 5-6cm
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Monasterboice">
+                                 <placeName type="townland">Monasterboice (<ref target="https://www.logainm.ie/ga/34018"><hi rend="italic">Mainistir Bhuithe</hi></ref>)</placeName>, <placeName type="county">Co. Louth</placeName>, 
+                                <geo>53.777954, -6.417990</geo>.
+                            </origPlace>
+                              <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1856"><p>The first known mention of this cross slab is by J. Graves in 1856   (<ref source="#MAC1949">Macalister 1949, 32</ref>). 
+                            <q>The monastic remains at <ref target="https://monasticon.celt.dias.ie/4508">Monasterboice</ref> constitutes a National Monument consisting of a small enclosed graveyard (LH021-062002-) with two small churches (LH021-062003-; LH021-062004-), a round tower (LH021-062006-), three high crosses (LH021-062007-; LH021-062008-; LH021-062009-), a bullaun stone (LH021-062010-), sundial (LH021-062011-) and a number of grave-slabs (LH021-062012-; LH021-062013-; LH021-062014-)... Founded by St. Buite (later Buithe), who died about 520 and who gave his name to the place (<hi rend="italic">Mainistir Buithe</hi> - the monastery of Buithe), it came to prominence in the Irish annals from the early eighth century and continued to be mentioned frequently up until the twelfth century, mainly in relation to the deaths of ecclesiastics associated with it</q> (<ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=LH021-062001-">Archaeology.ie</ref>). </p>
+                        </provenance>
+                        <provenance type="observed">Lying flat on site, set in concrete and surrounded by a low iron paling on the north side of the north church.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-09-27" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-10" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-10" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+         <graphic url="Monasterboice_crossSlab.jpg"><desc>Photograph by Nora White 2022</desc></graphic>      
+        <media url="https://sketchfab.com/3d-models/monasterboice-cross-slab-91807c47d82d4b1b8406f6cb472b6ec0" mimeType="text/html"><desc>3d model on Sketchfab by Nora White</desc></media>       
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="mga" resp="#NW">
+                <ab>  
+                      <lb n="1"/><!--<milestone unit="quadrant" n="2"/>--><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><hi rend="supraline">OR</hi></abbr><ex>ÓIT</ex></w></expan> <w lemma="do" corresp="http://www.dil.ie/17096">DU</w> 
+                   <persName><name nymRef="Ruarcán">RU<!--<milestone unit="quadrant" n="4"/>-->ARCAN</name></persName> 
+                  </ab>
+            </div>
+            <div type="apparatus">
+                
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer for Ruarcán</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Although there are a few examples of the name Ruarc(c) in the <ref target="https://celt.ucc.ie/published/T100001A/index.html">Annals of Ulster</ref> from the ninth and tenth centuies, I don't know of any other example of Ruarcán, with the diminutive suffix.</p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p> 
+                    <bibl><ptr target="#LIO1961"/>Lionard 1961,
+                        <citedRange>128-129, 135</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>32, no.581</citedRange>
+                    </bibl>
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

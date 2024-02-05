@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>WEM-001. Twyford (Bealin) High Cross</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">WEM-001</idno> 
+                 <idno type="CIIC">871</idno> 
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=WM029-008----">WM029-008----</ref>. 
+                                        <material ref="materials.xml#lapis">Stone</material>, <objectType ref="objects.xml#mon9">high cross</objectType>,                                           
+                                         <dimensions unit="m">
+                                            <height>2.10 (above modern base) </height> 
+                                            <width>1.06 (estimate across damaged arms)</width> 
+                                            <depth>0.27</depth>
+                                         </dimensions>. 
+                                        A high cross, decorated on all surfaces with <rs type="decoration">animal (including a hunting scene) and interlace patterns</rs>, with damage to the N arm and only the lower segment of the south side of the ring has been preserved (detailed description by <ref source="#HAR1992">Harbison (1992, vol. 1, 25-6)</ref> available at <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=WM029-008----">Archaeology.ie</ref>). </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription fills the lower panel on the W face, is arranged <rs type="style">horizontal</rs>ly in six lines and is, unusually, carved in <rs type="execution" ref="https://www.eagle-network.eu/voc/writing/lod/7.html">relief</rs> (<ref source="#Harbison1992">Harbison 1992, 26</ref>). </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The A's are in the 'OC' form, while some letters such as the L and D in line 3 [actually 4] and the H in line 2 [actually 3] appear to have wedge-shaped finials. The Ts are curved, the Ss are reversed and the Hs are minuscule. Each of the four Rs are different. The examples on lines 2, 4 and 6 all verge towards majuscule forms, but that on line 1 is clearly in half-uncial. The E is of the closed minuscule form, but the horizontal stroke is extended. The L is curved and the G is half-uncial. The D has a vertical ascender and an open bow</q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/twyfo_1.html">Celtic Inscribed Stones Project</ref>).                                                                 <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Twyford">
+                                 <placeName type="townland">Twyford</placeName>, near <placeName type="village" corresp="https://www.logainm.ie/ga/137362">Bealin (<hi rend="italic">Béal Linne</hi>)</placeName>, <placeName type="county">Co. Westmeath</placeName>, 
+                                <geo>53.439165, -7.841329</geo>.
+                            </origPlace>
+                            <origDate notBefore="0750" notAfter="0811" datingMethod="#julian" evidence="prosopography">Late eighth/early ninth century A.D?</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1837"><p>The earliest known mention of the high cross is in the Ordnance Survey Letters (<ref target="https://www.askaboutireland.ie/aai-files/assets/ebooks/OSI-Letters/WEST%20MEATH%20VOL%201_14%20G%2013.pdf">OSL 1837, vol. 1, 68</ref>) where it is said to have been removed from an old graveyard in Twyford Dememse. No trace of this graveyard is now visible but it is possibly the location annotated on the 1837 ed. OS 6-inch map as ‘Site of Monastery’ with a possible holy well 100m to N <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=WM029-009----">Archaeology.ie</ref>). The 'monastery' at Twyford [possibly 'Ford of the Tuath'] has been identified by <ref source="#COX1946">Cox (1946, 62-3)</ref> with <ref target="https://monasticon.celt.dias.ie/4002"><hi rend="italic">Íseal Chiaráin</hi></ref> ('low place of St. Ciarán of Clonmacnoise').</p>
+                        </provenance>
+                        <provenance type="observed">Standing on top of a hill in the former Twyford demesne N of Bealin and now known as the 'Bealin High Cross'.
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-03-15" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+         <graphic url="Twyford_871.jpg"><desc>Sketch by Macalister 1949</desc></graphic>      
+        <media url="https://sketchfab.com/3d-models/wm029-008-bealin-high-cross-westmeath-ba22e252f16442089e16c7c5fb00c06b" mimeType="text/html"><desc>3d model on Sketchfab by Digital Heritage Age</desc></media>       
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#NW">
+                <ab>
+                      <lb n="1"/><w lemma="oróit" corresp="http://www.dil.ie/33938">ORO<supplied reason="lost" evidence="previouseditor">IT</supplied></w>                      
+                       <lb n="2"/><w lemma="ar" corresp="http://www.dil.ie/3902">AR</w> <persName><name nymRef="Túathgal">TUA<lb n="3" break="no"/>THGAIL</name></persName>
+                    <lb n="4"/><w lemma="la" corresp="http://www.dil.ie/29233">LA<hi rend="reversed">S</hi></w><w lemma="do·gní" corresp="http://www.dil.ie/17752">DER<lb n="5" break="no"/>NATH</w> <w lemma="in" corresp="http://www.dil.ie/28194">IN</w> 
+                    <lb n="6"/><w lemma="cros" corresp="http://www.dil.ie/13123">CHRO<hi rend="reversed">S</hi></w><w lemma="-so" corresp="https://dil.ie/38191"><hi rend="reversed">S</hi>A</w>
+                                        
+                  </ab>
+            </div>
+            <div type="apparatus">
+                
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer on behalf of Túathgal for whom this cross has been made</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>A relatively rare example here of <hi rend="italic">oróit</hi> 'prayer' written out in full (usually abbreviated to <hi rend="supraline">OR</hi>), although the final -IT, read by Macalister, is no longer clear. The word <hi rend="italic">oróit</hi> is generally most commonly followed by the preposition <hi rend="italic">do</hi> 'for' (cf. <ref target="#OKA2001">Okasha and Forsyth's Munster Corpus</ref>). However, a variant formula using the preposition <hi rend="italic">ar</hi> 'on behalf of' is also quite common (cf. occurrences of <hi rend="italic">do</hi> and <hi rend="italic">ar</hi> in the index of words).</p></item>
+                    <item n="2"><p>The personal name Túathgal is not very common. It is a compound of <ref target="http://www.dil.ie/42241"><hi rend="italic">túath</hi></ref> 'people, territory' and <ref target="http://www.dil.ie/25277"><hi rend="italic">gal</hi></ref> 'warlike ardour, fury, valour'. The name occurs once in the <ref target="https://celt.ucc.ie/published/T100001A/index.html">Annals of Ulster</ref>, in the year 811 AD with <hi rend="italic">Tuathgal, abbas sruithe Cluana, moritur</hi> 'Tuathgal, abbot of the elders of Cluain [i.e. Clonmacnoise], died'. It is certainly possible that this cross was commissioned by an abbot at <ref target="https://en.wikipedia.org/wiki/Clonmacnoise">Clonmacnoise</ref>. <q>If we are dealing with the same individual, then Bealin is the earliest ringed cross in stone for which we have a firm date</q> (<ref source="#STA2020">Stalley 2020, 15</ref>).</p></item>
+                       <item n="3"><p>The verbal form <hi rend="italic">·dernath</hi> (would expect <hi rend="italic">·dernad</hi>, cf. a very similar inscription at Monasterboice <ref target="https://emili.celt.dias.ie/LOU-001">LOU-001</ref>) is the 3sg. prototonic, augmented preterite passive ('has been made') of <hi rend="italic">do·gní</hi> 'to make', with a prepositional relaitve <hi rend="italic">las(a) n-</hi> 'by whom'). However, rather than expressing that Túathgal is the craftsman who made the cross (for which we might rather expect the from <hi rend="italic">do·rigni</hi> '(who) has made'), the use of the prepositional relative to express agency with the passive verb suggests that Túathgal was the commissioner of the cross, which is best conveyed by the translation 'for whom this cross has been made' (cf. <ref target="#OKA2001">Okasha and Forsyth 2001, 29</ref>). </p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#COX1946"/>Cox 1946,
+                        <citedRange>vol. II, No. 11; 52-63</citedRange>
+                    </bibl>;  
+                    <bibl><ptr target="#HAR1992"/>Harbison 1992,
+                        <citedRange>vol. 1, 25-6</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>79, no.871</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#STA2020"/>Stalley 2020, 
+                        <citedRange>15</citedRange>
+                    </bibl>
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

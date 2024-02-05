@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>KIK-001. Killamery 1. Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">KIK-001</idno>
+                 <idno type="CIIC">570</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>N/A</repository>
+                        <idno type="invNo"><!--BELUM.A131.1933--></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008005-">KK030-008005-</ref>. 
+                                        A roughly rectangular <material ref="materials.xml#lapis">stone</material> <objectType ref="objects.xml#mon3">cross slab</objectType>,  
+                                         (<dimensions unit="m">
+                                            <height>1.56</height>
+                                            <width>0.56</width>
+                                            <depth>0.14</depth>
+                                         </dimensions>) with a rounded top.  The decoration, on the smooth flat surface, is described by <ref source="#CAR1905">Carrigan (1905, vol. 4, 314)</ref> as, ‘an irregularly shaped panel in two incised lines embracing a <rs type="decoration" ref="crosses.xml#LatinCross">Latin [outline] cross</rs>, which terminates in a [spiked] triangular-shaped base enclosing a triquetra' or looped knot (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008005-">Archaeology.ie</ref>). </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The slab has two, very similar in content but different paleographically, <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> inscriptions. The first runs upwards under the left arm of the cross parallel to the shaft. The second runs across the top of the slab, above and up-side-down in relation to the cross with a <rs type="decoration" ref="symbols.xml#initialCrosslet">small initial crosslet</rs> positioned just before the text.
+                                </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc> 
+                            <handNote>The hands of the two inscriptions are noticably different. Most obviously, the letters of the first are taller and more flat-topped than the more squat-style second inscription. The first inscription also has majuscule Rs while in the second they are half-uncial. However, the Ds have vertical ascenders in both. 
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Killamery">
+                                <placeName type="townland">Killamery (<ref target="https://www.logainm.ie/ga/1321"><hi rend="italic">Cill Lamraí</hi></ref>)</placeName>, <placeName type="county">Co. Kilkenny</placeName>, 
+                                <geo>52.475431, -7.446015</geo>.
+                            </origPlace>
+                            <origDate notBefore="0700" notAfter="0850" precision="low" evidence="textual-context" datingMethod="#julian">eighth and early ninth centuries A.D.?</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1853"><p>First mentioned, 1853 Dunne, J. <ref source="#MAC1949">Macalister (1949, 25)</ref> describes the slab as <q>lying prostrate a few paces to the south of the standing cross in the graveyard</q> (KK030-008010-). <q>According to <ref source="#CAR1905">Carrigan (1905, vol. 4, 311-2)</ref> a monastery here was founded by St. Gobbán Finn early in the 7th century whose feast day is celebrated on the 6th of December</q>. <q>Of the <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=1799">monastic site</ref> only a high cross (KK030-008004-), two cross-slabs (KK030-008005-; KK030-008011-), a stone cross (KK030-008013-), the remains of a church (KK030-008003-) and two bullaun stones (KK030-008006-; KK030-008008-) are currently visible at the location</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008005-">Archaeology.ie</ref>).</p>
+                        </provenance>
+                        <provenance type="observed"><p>The cross slab is currently located 3.8m NNW of the high cross, where it has been fixed, on its side, with metal straps to a low wall (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=KK030-008005-">Archaeology.ie</ref>).</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for  EMILI (Early Medieval Irish Latinate Inscriptions) controlled values?</p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>  
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-04-27" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-10" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-10" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>        
+        <graphic url="Killamery1.jpg"><desc>Image by Nora White</desc></graphic>
+         <media url="https://sketchfab.com/3d-models/killamery-cross-inscribed-slab-8c9601f8182641478b3e051c5e2178ef" mimeType="text/html"><desc>3d model on Sketchfab by Digital Heritage Age</desc></media>        
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#MAC1949">
+                     <div type="textpart" n="1">
+                         <ab>
+                    <lb n="1"/><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><hi rend="supraline">OR</hi></abbr><ex>ÓIT</ex></w></expan> <w lemma="ar" corresp="http://www.dil.ie/3902">AR</w> <w lemma="ainim" corresp="https://dil.ie/1402">ANMAIN</w> <persName>N<name nymRef="Áedán">AEDAIN</name></persName>
+                         </ab>
+                          </div>
+                 <div type="textpart" n="2">
+                    <ab>
+                  <lb n="1"/><g ref="symbols.xml#†">†</g><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><hi rend="supraline">OR</hi></abbr><ex>ÓIT</ex></w></expan> <w lemma="ar" corresp="http://www.dil.ie/3902">AR</w> <w lemma="ainim" corresp="https://dil.ie/1402">ANMIN</w> <persName><name nymRef="Áedán">AEDA<del rend="erasure" extent="2" unit="character"/><lb n="2" break="no"/>EN</name></persName>
+                 </ab>
+                 </div>
+            </div>
+            <div type="apparatus">
+                    
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer on behalf of the soul of Áedán</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The formula type <hi rend="italic">oróit ar anmain</hi> 'a prayer on behalf of the soul...' is less common than the simpler <hi rend="italic">oróit do/ar</hi> type. <ref source="#OKA2001">Okasha and Forsyth (2001, 28)</ref> note that Macalister lists seven examples, three from Clonmacnoise and one each from Fuerty, Co. Roscommon; Kilcummin, Co. Mayo; <ref target="https://emili.celt.dias.ie/GAL-008">Templebrecan 8, Co. Galway</ref> and this one.
+                    </p></item>
+                <item n="2"><p>The personal name Áedán (also <ref target="https://dil.ie/613">Áed</ref>, of which Áedán is the diminutive) is a very common one. <ref source="#MAC1949">Macalister (1949, 25)</ref> comments that in the second inscription, the name <q>AEDA comes at the end of the line, after which there are two letters erased, probably because of some mistake. The final EN forms the beginning of a second line. Perhaps the one inscription was intended to correct the other</q>. Apart from the paleographic differences between the two inscriptions (noted above), there also also orthographic differences which point to seperate hands. The spelling variants in the second inscription suggest that this one is later (perhaps early ninth rather than eight century).</p></item>
+                    <item n="3"><p>Initial crosslets are common before texts on carved stone monuments and on metalwork, as well as in manuscripts, on the Continent and in Britain (<ref source="LIO1961">Lionard 1961, 101–2</ref>). In Ireland, they are attested from the later 7th/8th centuries (e.g., Toureen Peakaun) to the 12th century (e.g., the Cross of Cong). However, they are not as common as in Anglo-Saxon England (<ref source="OKA2001">Okasha and Forsyth 2001, 16</ref>).</p></item>
+                </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#CAR1905"/>Carrigan 1905, 
+                        <citedRange>vol. 4, 311-2, 314</citedRange>
+                    </bibl>;                     
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>25, no.570</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>vol. 2, 24, Plate XVII</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>288</citedRange>
+                    </bibl>
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

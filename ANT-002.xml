@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>ANT-002. Connor Inscribed Stone</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename"> ANT-002</idno>
+                 <idno type="CIIC">947</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>National Museums NI</repository>
+                        <idno type="invNo">BELUM.A131.1933</idno>
+                    </msIdentifier>
+                      <msContents>
+                        <msItem>
+                             <textLang mainLang="la-Latn">Latin written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Northern Ireland Sites and Monuments Record Number: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=2646">ANT038:030</ref>. 
+                                        An <objectType ref="objects.xml#mon5">inscribed <material ref="materials.xml#lapis">stone</material></objectType>, 
+                                   possibly basalt  
+                                         (<dimensions unit="m">
+                                            <height>0.91</height>
+                                            <width>0.48</width>
+                                            <depth>0.17</depth>
+                                         </dimensions> (converted from <ref source="#MAC1945">Macalister 1949, 115</ref>). Described by <ref source="#HAM2001">Hamlin (2001, 53)</ref> as <q>battered and abraded</q>.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <rs type="execution" key="Litteris Scariphatis" ref="https://www.eagle-network.eu/voc/writing/lod/9.html">lightly scratched</rs> (<ref source="#MAC1949">Macalister 1949, 115</ref>) in a single line. Only the first four words are clear but the text is in Latin (<ref source="#HAM2001">Hamlin 2001, 53</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Described by <ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/conor_1.html">Celtic Inscribed Stones
+                                Project</ref> as a <q>half-uncial inscription. The first S, the first I and the two final U's all have wedge-shaped finials. The Os are spherical rather than round, each of the Rs are different, with differing bows, and 'feet', the two examples of S also differ, while three types of E can also be seen in this text. Open-bowed B, with a heart-shaped bow and a half-uncial G, along with flat-bottomed U's and the common Insular abbreviation for PRO can also be seen</q>. 
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Connor">
+                                <placeName type="townland">Connor (<ref target="https://www.logainm.ie/en/61369"><hi rend="italic">Coinnire</hi></ref>)</placeName>, <placeName type="county">Co. Antrim</placeName>, 
+                                <geo>54.807219, -6.212404</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D-->.</origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1884"><p><q>Macalister strangely listed this stone as 'Locality unknown'... yet sources which would have been available to him allow it to be located with some confidence to the important and well-documented ecclesiastical site of Connor (<ref source="https://monasticon.celt.dias.ie/showrecord.php?id=2835">Monasticon Hibernicum database</ref>). The stone was described by O'Laverty in 1884: it had been used in building a bridge to the Presbyterian manse at Connor and was then preserved in the grounds of the manse. From here it entered Canon Grainger's collection and later passed to the Belfast (now Ulster) Museum</q> (<ref source="#HAM2001">Hamlin 2001, 53</ref>). 
+                            </p>
+                        </provenance>
+                        <provenance type="observed"><p>now in the Ulster Museum, Belfast</p>
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for  EMILI (Early Medieval Irish Latinate Inscriptions) controlled values?</p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>
+<language ident="mga-Latn">Middle Irish written in latin script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-04-27" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to also 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>        
+        <graphic url="Connor.jpg"><desc>Image courtesy of National Museums NI (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</ref>)</desc></graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#NW">
+                <ab>
+                    <lb n="1"/><w lemma="frater">FRATRES</w><space quantity="1" unit="character"/> <w lemma="oro">ORENT</w> <expan><w lemma="pro"><abbr>P</abbr><ex>RO</ex></w></expan> <w lemma="nos">NOBIS</w> 
+                    <gap reason="illegible" quantity="3" unit="character"/><unclear reason="faded">EC</unclear><gap reason="illegible" quantity="2" unit="character"/><unclear reason="faded">E</unclear><gap reason="illegible" quantity="3" unit="character"/><unclear reason="faded">EN</unclear>  
+               </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+  <app loc="1">
+   <rdg source="#MAC1949">Macalister (1949): FRATRES ORENT PRO NOBIS OGRECHU ET UGEN</rdg>
+  </app>
+ </listApp>      
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>May the brother's pray for us...</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>As pointed out by <ref source="#HAM2001">Hamlin (2001, 53)</ref>, <q>only the first four words are clear</q> in this inscription.</p></item>
+                     <item n="2"><p>The word FRATRES indicates a community of some kind, and the subjunctive form ORENT suggests the translation `may the brothers pray for us' <ref source="#HAM2001">Hamlin 2001, 53-4</ref>).
+                    </p></item></list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>                      
+                     <bibl><ptr target="#HAM2001"/>Hamlin 2001, 
+                        <citedRange>53-4</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>115, no.947</citedRange>
+                    </bibl>                    
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

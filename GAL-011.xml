@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GAL-011. Inchagoill Pillar</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">GAL-011</idno>
+                 <idno type="CIIC">1</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                      
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <region type="county">Galway</region>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <!--<summary corresp="document-search.xml#doc1">
+                            <seg xml:lang="en">Memorial Pillar</seg>
+                        </summary>-->
+                        <msItem>                            
+                            <textLang mainLang="sga-Latn">Old Irish written in Latin script</textLang>                            
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA040-013002-">GA040-013002-</ref>. 
+                                        <material ref="materials.xml#lapis">Stone</material> <objectType ref="objects.xml#m10">cross carved pillar</objectType>, 
+                                    described by <ref source="#MAC1945">Macalister</ref> (1945, 1) as <q>silurian grit</q> 
+                                         (<dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA040-013002-">
+                                            <height>0.90</height> 
+                                            <width>0.16</width>
+                                            <depth>0.15 widening to 0.3m</depth>
+                                         </dimensions>). It has seven small <rs type="decoration" ref="crosses.xml#equal-armedCross">equal-armed crosses with short, straight bifid terminals</rs>, two on each face except the N face which has just one.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">Punched</rs>/pocked on its S face below the lower cross, <rs type="style">vertically downwards</rs> in two lines.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The <ref target="https://www.ucl.ac.uk/archaeology/cisp/database/stone/incha_1.html">Celtic Inscribed Stones Project</ref> describe the lettering as <q>Insular half-uncial. The second A is in the 'OC' form and the D with a vertical ascender and a closed bow also has a wedge-shaped finial, as does the initial L. The Es are in the rounded uncial form, sometimes with extended horizontal strokes. The H is minuscule as are the Ms and one of the Ns. The other N is in capitalis. The G is in the shape of an angular J </q>. <ref source="#CHA2006">Gifford Charles-Edwards (2006, 310)</ref> states that it <q>shows the mixture of alphabets and angularisation of forms seen in the later Welsh Group I inscriptions. Angular and round l, Z-shaped g aligned with the preceding and following u, uncial e, a, h, d and o, trident m. Two bar-serifs on the Is, but fish-tails on the two accompanying crosses.</q>
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#placename" ref="origPlace.xml#Inchagoill"> 
+                                <placeName  type="townland">Inchagoill (<ref target="https://www.logainm.ie/ga/20677"><hi rend="italic">Inis an Ghaill</hi></ref>)</placeName>, <placeName
+                    type="county"><rs type="county" ref="counties.xml#Galway">Co. Galway</rs></placeName>
+                                <geo>53.485736, -9.316421</geo>
+                            </origPlace>
+                            <origDate notBefore="0500" notAfter="0600" precision="low" evidence="textual-context" datingMethod="#julian">Sixth century A.D. (Archaic OIr.)</origDate>
+                        </origin>
+                        <provenance xml:id="placename" type="found" when="1810"><p>Early church site (<placeName type="site">Teampull Phádraig</placeName>) about mid-point along Inchagoill island on Lough Corrib and c. 150m SW of the landing place. The inscribed stone stands in the SW corner of the graveyard, close to the medieval nave and chancel church  (<ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA040-013002-">Archaeology.ie</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=3883">Monasticon Hibernicum Database</ref>). 
+                            <ref source="#PET1878">Petrie</ref> states that a letter dated June 9 1839 between Petrie and O'Donovan discusses this stone, and that it was drawn at around this time. 
+                            </p>
+                        </provenance>
+                        <provenance type="observed">Findspot
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMILI (Early Medieval Irish Latinate Inscriptions) controlled values??</p>
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>    
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.honorary" ref="https://www.eagle-network.eu/voc/typeins/lod/69.html">honorary inscription</term>
+</keywords>
+</textClass>   
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-06-25" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-04" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (ringed, Latin, etc)
+</change>
+ <change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <media url="https://sketchfab.com/3d-models/ga040-013002-cross-inscribed-stone-inchogoill-a2ec62383fc84847a8971041035936ca" mimeType="text/html"><desc>3d model on Sketchfab by Digital Heritage Age</desc></media>      
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#NW">
+                <ab>
+                    <lb n="1" style="text-direction:verticle"/><w lemma="liä">LIE</w>
+                    <persName><persName type="attested" ref="#pers001"><name nymRef="Lugáed">LUGUAEDON</name></persName>
+                    <lb n="2" style="text-direction:verticle"/><w lemma="Mac" type="patronym">MACCI</w>
+                     <persName type="patronym"><name nymRef="Menuech">MENUEH</name></persName></persName>                   
+                 </ab>
+            </div>
+            <div type="apparatus">
+                 <listApp>
+  <app loc="1">
+   <note>Read by <ref source="#PET1845">Petrie (1845, 164)</ref> as 'lie lugnaedon macc lmenueh'.</note>
+  </app>
+ </listApp>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Stone of Lugáed son of Menuech</p>
+            </div>
+            <div type="commentary"> <list type="witDetail">
+                    <item n="1"><p>Inscriptions in the Ogham script (see <ref target="https://ogham.celt.dias.ie">Ogham in 3D</ref>) generally don't have a governing word before the personal name in the genitive case (with the exception of those with initial ANM (OIr. <hi rend="italic">ainm</hi> 'name') but it is understood that it would be a word meaning 'memorial' or 'stone', as we find here in the Latin script with <ref target="http://www.dil.ie/30096">LIE</ref> (<ref source="#MCM1991">McManus 1991, 51</ref>).</p></item>            
+                    <item n="2"><p>The personal name, LUGUAEDON (gen. of <hi rend="italic">Lugáed</hi>), is a typically popular compound of two personal names (<persName type="divine"><hi rend="italic">Lug</hi></persName>, divine name <persName><hi rend="italic"><ref target="http://www.dil.ie/613">Áed</ref></hi></persName> 'fire'), *lugu-ai̯don-, with compositional vowel u before vowel giving /w/ (but compare the Ogham inscription [<ref target="https://ogham.celt.dias.ie/ciic/4/">Kilmannin CIIC 4.</ref>] where 'u' lost/dropped in LUGADDON) (<ref source="#MCM1991">McManus 1991, 117</ref>).</p></item>
+                <item n="3"><p>Regarding artificial gen. form MACCI (earlier (Ogham) MAQQI and later OIr. <hi rend="italic">maic</hi>, nom. <hi rend="italic"><ref target="http://www.dil.ie/31166">mac</ref></hi> 'son'), this inscription is unique in containing -I spelling of this form in Latin script and <q>can probably lay claim to being the oldest surviving Irish 'text' written in the Latin alphabet</q> (<ref source="#MCM1991">McManus 1991, 61, 81, 90</ref>).</p></item>    
+                <item n="4"><p>Regarding MENUEH, <ref source="#MCM1991">McManus (1991, 104, 178, n.25)</ref> follows <ref source="#Mac1909">MacNeill (1909, 333)</ref> in interpreting this name as <hi rend="italic">*Menuech</hi> (from earlier <hi rend="italic">*Minawicas</hi>, -VICAS being a common second element in Ogham inscriptions, usualy combined with a divine name). <q>The first element may be the same as that found in <hi rend="italic">mocu Min</hi> (e.g. <hi rend="italic">Mo-Sinnu mocu Min</hi>) and <hi rend="italic">Menraige</hi> (<ref source="#Mac1911">MacNeill (1911, 79)</ref></q>.</p></item>
+            </list>
+            </div>
+           <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>
+                    <bibl><ptr target="#CHA2006"/>Charles-Edwards 2006,
+                        <citedRange>310</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#HIG1987"/>Higgins 1987, 
+                        <citedRange>vol. 2, 303, no. 31</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1945"/>Macalister 1945, 
+                        <citedRange>1-3, no.1</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1909"/>MacNeill 1909, 
+                        <citedRange>333</citedRange>
+                    </bibl>
+                    <bibl><ptr target="#MAC1911"/>MacNeill 1911, 
+                        <citedRange>79</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MCM1991"/>McManus 1991, 
+                        <citedRange>51, 59-61, 81, 96, 104, 117, 178, n.25</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#PET1845"/>Petrie 1845,
+                        <citedRange>164</citedRange>                    
+                    </bibl>;
+                    <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>10, 164-8</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#RYN1995"/>Rynne 1995,
+                        <citedRange>205-11</citedRange> 
+                     </bibl>;
+                     <bibl><ptr target="#STO1903"/>Stokes and Strachan 1903,
+                        <citedRange>288</citedRange>
+                    </bibl>
+                </p>
+            </div>
+                  </body>
+    </text>
+</TEI>

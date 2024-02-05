@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GAL-002. Templebrecan 2: Carved Pebble</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">GAL-002</idno>
+                 <idno type="CIIC">532</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>National Museum of Ireland</repository>
+                         <idno type="invNo">inventory/reg. no. P1047</idno>
+                    </msIdentifier>
+                      <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023001-">GA110-023001-</ref>. 
+                                        A black, <material ref="materials.xml#clay_ironstone">clay ironstone</material> <objectType ref="objects.xml#mon8">nodule</objectType>,                                  
+                                         approximately <dimensions unit="m">
+                                            <height>0.76</height>
+                                            <width>0.76</width>
+                                            <depth>0.38</depth>
+                                         </dimensions> (converted from <ref source="#PET1845">Petrie 1845, 139</ref>) 
+                                       almost flat on the underside. A <rs type="decoration" ref="crosses.xml#linearCross">linear</rs>, <rs type="decoration" ref="crosses.xml#equal-armedCross">equal-armed cross</rs> is carved on the upper side.</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is positioned on the stone in a single, circular line around the edge, with the base of the letters towards the cross. A <rs type="decoration" ref="symbols.xml#initialCrosslet">small initial crosslet</rs> is positioned just before the text.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>According to <ref source="#CHA2006">Gifford Charles-Edwards (2006, 310)</ref>, who mistakenly named the location Killeany, this is <q>perhaps among the earliest examples to show the Irish fashion for extreme angularisation and use of mixed-alphabet letters. Minuscule triangular a, r, l and t, with angularised half-uncial h, n, and lentoid o. Two-line layout, h in height of i, b in height of minuscule r</q>.
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Templebrecan">
+                                <placeName type="site">Templebrecan (<ref target="https://www.logainm.ie/en/1398978"><hi rend="italic">Teampall Bhreacáin</hi></ref>)</placeName>, in the townland of <placeName  type="townland">Onaght (<hi rend="italic">Eoghanacht</hi>)</placeName>, <placeName type="island">Inishmore (<hi rend="italic">Árainn</hi>)</placeName>, <placeName
+                    type="county">Co. Galway</placeName>, 
+                                <geo>53.145856, -9.777971</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                         <provenance type="found" when="1822"><p>Discovered by Petrie in 1822 inside the supposed tomb
+of Saint Breccán, the church's presumed founder.  <q>This is one of five [leacht] leabaí or grave-plots associated with <hi rend="italic">Teampall Bhreacáin</hi> (GA110-010001-) ['Breacán's church'] and Teampall an Phoill (GA110-010003-) [part of a wider ecclesiastical complex known as <hi rend="italic">na Seacht dTeampaill</hi> 'the Seven Churches']. This example, known as <hi rend="italic">Leaba Bhreacáin</hi> ['Breacán's bed/grave'], is to the SW of <hi rend="italic">Teampall Bhreacáin</hi>. It consists of a low subrectangular platform (c. 5.1m N-S; 4-5m E-W; H 0.35m) that is defined by a kerb of limestone blocks (T 0.12-0.38m). Eight cross slabs (GA110-023013- to GA110-023020-) are associated with it</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023001-">Archaeology.ie</ref>; <ref source="#WAD1973">Waddell 1973, 5-27</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4597">Monasticon Hibernicum Database</ref>).
+                           </p>
+                        </provenance>
+                        <provenance type="observed">National Museum of Ireland
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>
+            <!--<charDecl>
+<!-\- <glyph xml:id="†">
+  <mapping type="standard">†</mapping>
+  <mapping type="simplified">(cross)</mapping>
+  <mapping type="g-london-diplomatic">†</mapping>
+ </glyph>-\->
+</charDecl>-->
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-08-12" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-05" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (ringed, Latin, etc)
+</change>
+    <change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+         <surface n="i"><desc>Cross-inscribed top of nodule</desc>
+        <graphic url="Templebrecan_pebble.jpg"><desc>Image courtesy of the National Museum of Ireland ©NMI (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</ref>)</desc></graphic>
+            </surface>
+       <surface><desc>Side view of nodule</desc>
+        <graphic url="Templebrecan_pebble2.jpg"><desc>Image courtesy of the National Museum of Ireland ©NMI (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</ref>)</desc></graphic>
+       </surface>
+         <surface><desc>Second side view of nodule</desc>
+        <graphic url="Templebrecan_pebble3.jpg"><desc>Image courtesy of the National Museum of Ireland ©NMI (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</ref>)</desc></graphic>
+       </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#NW">
+                <ab>
+                     <lb n="1"/><g ref="symbols.xml#†">†</g><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><hi rend="supraline">OR</hi></abbr><ex>ÓIT</ex></w></expan><space unit="character" extent="1"/>
+                    <w lemma="ar"  corresp="http://www.dil.ie/3902">AR</w>
+                    <persName><name nymRef="Bran" corresp="http://www.dil.ie/6537">BRAN</name></persName><space unit="character" extent="1"/>N<w lemma="Ailither" corresp="http://www.dil.ie/1031">AILITHER</w>                   
+                  </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+  <app loc="1">
+   <note>Read by <ref source="#MAC1949">Macalister (1949, 6)</ref> as: OR[OIT] ARBR[EC]AN NAILITHER 'a prayer for Brecán the pilgrim'.</note>
+  </app>
+ </listApp> 
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer on behalf of Bran the pilgrim</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Initial crosslets are common before texts on carved stone monuments and on metalwork, as well as in manuscripts, on the Continent and in Britain (<ref source="LIO1961">Lionard 1961, 101–2</ref>). In Ireland, they are attested from the later 7th/8th centuries (e.g., Toureen Peakaun) to the 12th century (e.g., the Cross of Cong). However, they are not as common as in Anglo-Saxon England (<ref source="OKA2001">Okasha and Forsyth 2001, 16</ref>).</p></item>
+                    <item n="2"><p> The person named here, <hi rend="italic">Bran n-ailither</hi> 'Bran the pilgrim', has not been identified. Bran (meaning 'raven') is a very common name, and name element, in the early medieval period. <ref source="#PET1878">Petrie (1878, 20)</ref> noted that <q>on the mainland is a well, which still bears the title <hi rend="italic">Tobar Brain</hi></q>. The nasalisation of <hi rend="italic">ailither</hi> would suggest that <hi rend="italic">Bran</hi> here is in the accusitive case after the preposition <hi rend="italic">ar</hi>. which takes the accusitive or dative case.                     
+                    </p></item>
+                        <item n="2"><p><q>The identification of Inis Mór as a place of pilgrimage corroborates the pebble’s inscription as a prayer for a pilgrim named ‘Bran’, and the discovery of a number of smoothed stones in the grave, which is
+interpreted as that of a saint (<ref source="#PET1878">Petrie 1878, 20</ref>), further establishes an act of a ritualistic deposition</q> (<ref source="#JOH2020">Johnson 2020, 239</ref>). <q>The inscription on the Inis Mór
+pebble is paralleled in the prayer texts on portable Irish reliquaries in which prayers for
+specific individuals are incised</q> (<ref source="#MIC1996">Michelli 1996, 1-48</ref>).</p></item></list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>   
+                    <bibl><ptr target="#CHA2006"/>Charles-Edwards 2006,
+                        <citedRange>310</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#HIG1987"/>Higgins 1987, 
+                        <citedRange>vol. 2, 268, no. 1</citedRange>
+                    </bibl>;                      
+                    <bibl><ptr target="#JOH2020"/>Johnson 2020, 
+                        <citedRange>239-40</citedRange>
+                    </bibl>;   
+                       <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>6, no.532</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#MIC1996"/>Michelli 1996,
+                    <citedRange>1-48</citedRange>
+                    </bibl>
+                    <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>vol. 2, 20, Plate XII</citedRange>
+                    </bibl>;   
+                    <bibl><ptr target="STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>286</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="WAD1973"/> Waddell 1973,
+                        <citedRange>5-27</citedRange>
+                    </bibl>
+                 </p>
+            </div>             
+        </body>
+    </text>
+</TEI>

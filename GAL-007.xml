@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GAL-007. Templebrecan 7: Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">GAL-007</idno>
+                 <idno type="CIIC">537</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>National Museums NI</repository>
+                        <idno type="invNo">BELUM.A1336</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023026-">GA110-023026-</ref>. 
+                                        A small, rectangular <objectType ref="objects.xml#mon3">cross slab</objectType>, of <q><material ref="materials.xml#lapis" source="#HIG1987">limestone</material></q>     
+                                        (<dimensions unit="m" source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023026-">
+                                            <height>0.43</height>
+                                            <width>0.34</width>
+                                            <depth>0.06</depth>
+                                         </dimensions>) <q>decorated with a <rs type="decoration" ref="crosses.xml#equal-armedCross">Greek cross with expanded terminals</rs> <rs type="decoration" ref="crosses.xml#ringedCross">set within a double circle</rs></q>.</p></support>    
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription above the cross follows the curve of the circle. 
+                                    <q>Both the cross and the inscription have been executed by <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocking</rs> with a small sharp point</q> (<ref source="#HIG1987">Higgins 1987, 359</ref>).
+                                     </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The lettering is half-uncial. The minuscule H has wedge-shaped finials. The Es are in the open uncial form and both have extended horizontal strokes. In the first example this stroke forms a ligature with the following half-uncial T. The R is half-uncial and the N is minuscule with a flattish top (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_6.html">Celtic Inscribed Stones Project</ref>).
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Templebrecan">
+                                <placeName type="site">Templebrecan (<ref target="https://www.logainm.ie/en/1398978"><hi rend="italic">Teampall Bhreacáin</hi></ref>)</placeName>, in the townland of <placeName type="townland">Onaght (<hi rend="italic">Eoghanacht</hi>)</placeName>, <placeName type="island">Inishmore (<hi rend="italic">Árainn</hi>)</placeName>, <placeName type="county">Co. Galway</placeName>, 
+                                <geo>53.145981, -9.777726</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" notAfter="1878"><p>First mentioned in 1878 by Petrie (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_6.html">Celtic Inscribed Stones Project</ref>). This cross slab was also discovered at <hi rend="italic">Teampall Bhreacáin</hi> ['Breacán's church'] (GA110-010001-) but the precise location and context do not appear to have been recorded. <hi rend="italic">Teampall Bhreacáin</hi> is part of a wider ecclesiastical complex known as <hi rend="italic">na Seacht dTeampaill</hi> 'the Seven Churches' (<ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4597">Monasticon Hibernicum Database</ref>).  
+                           </p>
+                        </provenance>
+                        <provenance type="observed">Now in the Ulster Museum, Belfast, having been acquired there as part of the Grainger Collection (<ref source="#HIG1987">Higgins 1987, 359</ref>).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>            
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="ga-Latn">Irish written in latin script</language>   
+<language ident="sga-Latn">Old Irish written in latin script</language>
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.dedicatory" ref="https://www.eagle-network.eu/voc/typeins/lod/88.html">Dedicatory?</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-04-10" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-06" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (ringed, expansional, etc)
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+        <facsimile>
+        <graphic url="Templebrecan_7.jpg"><desc>Photo of fragment courtesy of National Museums NI (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</ref>)</desc></graphic>      
+            <graphic url="Templebrecan7_b.jpg"><desc>Sketch by Macalister (1949, Plate II)</desc></graphic>
+    </facsimile>
+        <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#MAC1949">
+                <ab>
+                     <lb n="1" /><persName><name nymRef="Ceithernach" corresp="https://dil.ie/8534">CETHERN<unclear reason="damaged">A</unclear><supplied reason="lost">CH</supplied></name></persName>
+                   </ab>
+            </div>
+            <div type="apparatus">             
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Ceithernach</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p><hi rend="italic">Ceithernach</hi> 'member or leader of a <hi rend="italic">ceithern</hi>'; <hi rend="italic">ceithern</hi> 'a band of fighting-men' (<ref source="https://dil.ie/8534">eDIL</ref>). Attested as a personal name in the annals from the 8th to the 13th centuries (<ref source="https://medievalscotland.org/kmo/AnnalsIndex/Masculine/Ceithernach.shtml">Index of Names in Irish Annals</ref>), including the obit in 773 of 'Ceithernach h-ua Erumono, abbas Cluana Ferta Brenaind' (abbot of Clonfert, Co. Galway).</p></item> 
+                       </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>                          
+                    <bibl><ptr target="#HIG1987"/>Higgins 1987, 
+                        <citedRange>vol. 2, 359, no.81</citedRange>
+                    </bibl>;                        
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>7, no.537</citedRange>
+                    </bibl>;       
+                     <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>vol. 2, 22, Plate XVI</citedRange>
+                    </bibl>;         
+                    <bibl><ptr target="#WAD1973"/> Waddell 1973,
+                        <citedRange>23, no.18</citedRange>
+                    </bibl>
+                 </p>
+            </div>         
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>GAL-001. Templebrecan 1: Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">GAL-001</idno>
+                 <idno type="CIIC">531</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                      
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository><orgName>n/a</orgName></repository>
+                        <idno/>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="la-Latn">Latin written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023015-">GA110-023015-</ref>. 
+                                        A broken, roughly subrectangular, <material ref="materials.xml#lapis">limestone</material> <objectType ref="objects.xml#mon3">cross slab</objectType>,                                                                 
+                                        <dimensions unit="m">
+                                            <height>1.12</height>
+                                            <width>0.70</width>
+                                            <depth>0.14</depth>
+                                         </dimensions>. 
+                                       <q>About half of it has been broken away, but the majority of the carved area remains... The stone bears a <rs type="decoration" ref="crosses.xml#equal-armedCross">two-line Greek cross</rs> <rs type="decoration" ref="crosses.xml#circular-framedCross">enclosed by a double ring</rs>. The terminals of this, which are wedge-shaped, are cut by the innermost of these rings and are delimited by a groove and bear a small, centrally placed `cup mark' or depression</q> (<ref source="#HIG1987">Higgins 1987, 358</ref>).</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription, now fragmentary, is spread across the four cantons of the cross <rs type="style">horizontal</rs>ly. <q>The cross and inscription were both <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked</rs> using a point and the execution of the design was well done</q> (<ref source="#HIG1987">Higgins 1987, 358</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The lettering is Insular half-uncial. The B has a wedge-shaped finial. It also has a slightly curved ascender and an open bow. The R and probably the S are in the half-uncial forms. The E is in the open uncial form with an extended horizontal stroke. The N is minuscule</q>  (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kbrcn_1.html">Celtic Inscribed Stones Project</ref>). <ref source="#MAC1949">Macalister (1949, 5)</ref> noted that <q>most of the S is broken away: Petrie missed it and read C~I~ which he expanded into <hi rend="italic">Capiti</hi>, a reading even yet occasionally copied, though it has no intelligible meaning. The CA of the name is also broken away with the quadrant of the circle which contained them. The true reading was first determined by <ref source="#FER1879">Ferguson (1879, 257)</ref></q>. 
+                                <height><!--letter-heights--></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Templebrecan">
+                                <placeName type="site">Templebrecan (<ref target="https://www.logainm.ie/en/1398978"><hi rend="italic">Teampall Bhreacáin</hi></ref>)</placeName>, in the townland of <placeName type="townland">Onaght (<hi rend="italic">Eoghanacht</hi>)</placeName>, <placeName type="island">Inishmore (<hi rend="italic">Árainn</hi>)</placeName>, <placeName type="county">Co. Galway</placeName>, 
+                                <geo>53.145856, -9.777971</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" when="1800"><p>Discovered in the early 1800s inside the supposed tomb
+of Saint Breccán, the church's presumed founder. <q>This is one of five [leacht] leabaí or grave-plots associated with <hi rend="italic">Teampall Bhreacáin</hi> (GA110-010001-) ['Breacán's church'] and Teampall an Phoill (GA110-010003-) [part of a wider ecclesiastical complex known as <hi rend="italic">na Seacht dTeampaill</hi> 'the Seven Churches']. This example, known as <hi rend="italic">Leaba Bhreacáin</hi> ['Breacán's bed/grave'], is to the SW of <hi rend="italic">Teampall Bhreacáin</hi>. It consists of a low subrectangular platform (c. 5.1m N-S; 4-5m E-W; H 0.35m) that is defined by a kerb of limestone blocks (T 0.12-0.38m)</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023001-">Archaeology.ie</ref>; <ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4597">Monasticon Hibernicum Database</ref>). <q>This is one of eight cross slabs (see also GA110-023013- to GA110-023014- and GA110-023016- to GA110-023020-) associated with <hi rend="italic">Leaba Bhreacáin</hi></q>.
+                           </p>
+                        </provenance>
+                        <provenance type="observed"><q>Set against the N revetment of the leaba</q> (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=GA110-023015-">Archaeology.ie</ref>).
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>        
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.dedicatory" ref="https://www.eagle-network.eu/voc/typeins/lod/88.html">Dedicatory</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-08-13" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-04" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (ringed, Latin, etc)
+</change>
+    <change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Templebrecan_1.jpg"><desc>Sketch by Macalister 1949</desc></graphic>        
+        <graphic url="Templebrecan_1b.jpg"><desc>©Photographic Archive, National Monuments Service, Government of Ireland</desc></graphic>  
+         <graphic url="Templebrecan.jpg"><desc>Leaba Bhreacáin, ©Photographic Archive, National Monuments Service, Government of Ireland</desc></graphic>  
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" resp="#NW">
+                <ab>
+                    <lb n="1"/><!--<milestone unit="canton" n="1"/>--><expan><w lemma="sanctus"><abbr><hi rend="supraline">S</hi></abbr><ex>AN</ex><abbr><hi rend="supraline">C</hi></abbr><ex>T</ex>I</w></expan>
+                    <!--  <milestone unit="canton" n="2"/>-->                                
+                        <persName xml:id="stbreccan"><name nymRef="Brecanus" type="saint">BRE<lb n="2" break="no"/><!--<milestone unit="canton" n="3"/>--><supplied reason="lost">CA</supplied><!--<milestone unit="canton" n="4"/>-->NI</name></persName>   
+                  </ab>
+            </div>
+            <div type="apparatus">
+                 
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>of Saint Breccán</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Although recording an Irish name, <hi rend="italic">Breccán</hi> 'little speckled one', this inscription is in Latin with genitive singular endings. One of many early medieval Irish saints with this name.                 
+                    </p></item>
+                    <item n="2"><p>Here we have an example of one of the <hi rend="italic">Nomina Sacra</hi> abbreviations, in this case the genitive form (<hi rend="italic">Sancti</hi>) of Latin <hi rend="italic">Sanctus</hi> 'saint'. The text is probably dedicatory, recording the donation or dedication of the site to the eponymous saint. This is comparable to a less clear example at <ref target="https://ogham.celt.dias.ie/Kilfountain">Kilfountain</ref>, Co. Kerry: [SCI] F̣INTEN .</p>
+                    </item>
+                       </list>
+            </div>
+            <div type="bibliography">
+                 <head>Bibliography</head>
+                <p>   
+                    <bibl><ptr target="#FER1879"/>Ferguson 1879, 
+                        <citedRange>257</citedRange>
+                    </bibl>;           
+                    <bibl><ptr target="#HIG1987"/>Higgins 1987, 
+                        <citedRange>vol. 2, 358, no. 80</citedRange>
+                    </bibl>;           
+                    <bibl><ptr target="#MAC1895"/>Macalister 1895,
+                    <citedRange>379-80</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949,
+                    <citedRange>5, no.531</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="#PET1878"/>Petrie 1878,
+                        <citedRange>vol. 2, 19, Plate XII</citedRange>
+                    </bibl>;   
+                    <bibl><ptr target="STO1903"/> Stokes and Strachan 1903,
+                        <citedRange>286</citedRange>
+                    </bibl>; 
+                    <bibl><ptr target="WAD1973"/> Waddell 1973,
+                        <citedRange>17-18, no. 4</citedRange>
+                    </bibl>
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

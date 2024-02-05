@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DOW-002. Nendrum Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">DOW-002</idno>                
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>National Museums NI</repository>
+                        <idno type="invNo">BELUM.A6.1925</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                             <textLang mainLang="la-Latn">Latin written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Northern Ireland Sites and Monuments Record Number: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=6805">DOW017:005</ref>. 
+                                        Fragments of a <material ref="materials.xml#lapis">sedimentary stone</material> <objectType ref="objects.xml#mon3">cross slab</objectType>                                         
+                                         (<dimensions unit="m">
+                                            <height>0.43</height>
+                                            <width>0.29</width>
+                                            <depth/>
+                                         </dimensions>, converted from <ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/DOW/DOW_017/DOW_017_005/Public/SM7-DOW-017-005.pdf">SMR file, 214</ref>). The first and larger, triangular shaped fragment contains <q>a peripheral portion from the bottom right side of the overall cross slab design</q>. A recently identified second fragment <q>contains the bottom left side of the cross design and confirms that the design is a compass drawn <rs type="decoration" ref="crosses.xml#cross-of-Arcs">cross of arcs</rs> set on a bed of quatrefoils and bound by a cricular double frame</q> (<ref source="#DOW2018">Downey 2018, 1-2</ref>). </p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>The inscription is <!--<rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pecked</rs>--> located below the cross design on the larger fragment in two <rs type="style">horizontal</rs> lines, the first possibly complete but the second partial. The letters are <q>finely formed and carefully placed</q> (<ref source="#DOW2018">Downey 2018, 1-2</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Originally thought (<ref source="#LAW1925">by Macalister 1925, 70-71</ref>) to be in the Runic script (Old Norse language), <ref source="BAR1997">Barnes, Hagland and Page (1997, 2)</ref> rejected this stating that <q>only one letter coincides with a runic graph, <hi rend="italic">a</hi>, though another is a marginal possibility, <hi rend="italic">l</hi>; the rest are pretty clearly not runic</q>. <ref source="#CHA2006">Charles-Edwards (2006, 266-267, 310)</ref> (also <ref source="#CHA2007">2007, 396-404</ref>) was the first to acknowledge it as <q>an inscription in lightweight angular capitals</q> (otherwise known as 'decorative capitals' and also found on metalwork, such as the <ref target="https://www.museum.ie/en-IE/Collections-Research/Collection/The-Treasury/Artefact/The-Ardagh-Chalice/ac53e68e-76a4-4560-a624-c87647c57a00">Ardagh Chalice</ref>, and in insular manuscripts, such as the <ref target="https://en.wikipedia.org/wiki/Book_of_Kells">Book of Kells</ref> and the <ref target="https://en.wikipedia.org/wiki/Lindisfarne_Gospels">Lindisfarne Gospels</ref>). She describes the Nendrum lettering as follows: <q>Lightweight Roman capitals P and R with gate M, boxed U, minuscule right angled s, Type C manuscript display capital S, angular uncial A, squared capital C, and the scribal manuscript symbol representing the contraction for `inter'</q>. She also dentified some words in Latin in this inscription and compared this decorative, display style of lettering to that of the inscription on Toureen Peacaun East Cross shaft (<ref source="#OKA2001">Okasha and Forsyth 2001, 290-297</ref>; <ref source="#CHA2006">Charles-Edwards 2006, 266-267</ref>). In 2018 <ref source="#DOW2018">Downey</ref> built on the work of Charles-Edwards and supplied a <q>hypothetical reconstruction</q> (adding a third line) with a detailed and quite convincing explanation.                                
+                                <height>The lettering of the second line is slightly larger than that of the first.</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Nendrum">
+                                <placeName type="site">Nendrum (<ref target="https://www.logainm.ie/ga/120040"><hi rend="italic">Naondroim</hi></ref>)</placeName>, in the townland of <placeName type="townland">Mahee Island (<ref target="https://www.logainm.ie/ga/66110"><hi rend="italic">Inis Mochaoi</hi></ref>)</placeName>, <placeName type="county">Co. Down</placeName>, 
+                                <geo>54.498173, -5.647652</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" when="1921"><p>The larger inscribed fragment was discovered during excavation at <ref source="https://monasticon.celt.dias.ie/showrecord.php?id=4629">Nendrum early ecclesiastical site</ref> by Lawlor in 1921 (<ref source="#LAW1921">Lawlor 1925, 70-71</ref>) and the second fragment was recently identified among the excavation finds (<ref source="#DOW2018">Downey 2018, 1-2</ref>) . 
+                            <placeName type="site">Nendrum</placeName> is said to have been <q>founded in the C5th by St.Mochaoi and its abbots and bishops are recorded in the annals C7th-9th. In 987 it was burned probably in a Viking raid. The site now consists of the ruins of a church, round tower, enclosures, buildings, graves, carved stones and a rare pre-Norman sundial. The site is surrounded by 3 concentric enclosures. There are many burials within the inner and middle enclosures, some predating the church. In the middle enclosure is a monastic workshop</q> (<ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=6805">SMR file</ref>).</p>
+                        </provenance>
+                        <provenance type="observed"><p>The fragments are now in <ref target="http://www.downcountymuseum.com/">Down County Museum</ref>.</p> 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>
+           <!-- <charDecl>
+ <glyph xml:id="crux">
+  <mapping type="standard">†</mapping>
+  <mapping type="simplified">(crux)</mapping>
+  <mapping type="g-london-diplomatic">†</mapping>
+ </glyph>
+</charDecl>-->
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="ga-Latn">Irish written in latin script</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>
+<language ident="mga-Latn">Middle Irish written in latin script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.acclamation" ref="https://www.eagle-network.eu/voc/typeins/lod/73.html">Acclamation</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-07-08" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-06" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to also 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>    
+    <facsimile>
+        <surface n="i"><desc>Fragment with inscription</desc>
+        <graphic url="Nendrum_1.jpg"><desc>Photo of first fragment courtesy of National Museums NI (<ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA</ref>)</desc></graphic>
+            </surface>
+        <surface n="ii"><desc>Second fragment of cross design</desc>
+        <graphic url="Nendrum_2.jpg"><desc>Photo of second fragment courtesy of Down County Museum</desc></graphic>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="la" >
+                <ab>
+                     <lb n="1"/><supplied reason="lost" cert="low"><g ref="symbols.xml#†">†</g></supplied>                    
+                    <expan><w lemma="prīmus"><abbr>PRIM</abbr><ex>UM</ex></w></expan>
+                     <w lemma="opus">OPUS</w> <expan><w lemma="uel"><abbr>ɫ</abbr><ex>UEL</ex></w></expan>
+                    <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="gloria"><supplied reason="lost" cert="medium">GL</supplied><hi rend="supraline">O</hi>RIA</w> <w lemma="creātiō">CR<lb n="3" break="no"/><supplied reason="lost" cert="low">EATONIS</supplied></w>
+                  </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+  <app loc="1">
+   <note>Read by Macalister (<ref source="#LAW1925">Lawlor 1925, 70-71</ref>), taking it as a Old Norse inscription written in runes, as ...BRIMOBA/OTA... 'of the chief abbot'.</note></app></listApp>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>The first work, that is, the glory of creation</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The edition here is that proposed by <ref source="#DOW2018">Downey (2018, 4)</ref>, who suggests that the mark that can be seen before the initial P on the stone is what remains of an <rs type="decoration" ref="symbols.xml#initialCrosslet">initial crosslet</rs>: <q>the end of the right arm of a small bifurcated cross</q>, which is relatively common at the beginning of inscriptions, and is <q>counter-balanced at the end of the row by the cross-like symbol ɫ</q>. Initial crosslets are common before texts on carved stone monuments and on metalwork, as well as in manuscripts, on the Continent and in Britain (<ref source="LIO1961">Lionard 1961, 101–2</ref>). In Ireland, they are attested from the later 7th/8th centuries (e.g., Toureen Peakaun) to the 12th century (e.g., the Cross of Cong). However, they are not as common as in Anglo-Saxon England (<ref source="OKA2001">Okasha and Forsyth 2001, 16</ref>).
+                    </p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#BAR1997"/>Barnes, Hagland and Page 1997,
+                        <citedRange>2</citedRange>
+                    </bibl>;
+                     <bibl><ptr target="#CHA2006"/>Charles-Edwards 2006,
+                        <citedRange>310</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#CHA2007"/>Charles-Edwards 2007,
+                        <citedRange>396-404</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#DOW2018"/>Downey 2018,
+                        <citedRange>1-8</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#HAM2001"/>Hamlin 2001, 
+                        <citedRange>56-7</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#JOP1966"/>Jope 1966,  
+                        <citedRange>292</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#LAW1925"/>Lawlor 1925,
+                        <citedRange>70-71</citedRange>
+                    </bibl>  
+                 </p>
+            </div>    
+        </body>
+    </text>
+</TEI>

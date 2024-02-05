@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DON-002. Fahan Mura Cross</title>
+                <editor role="Postdoc_Researcher" xml:id="NW"><persName>Nora White</persName>
+                    <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                <editor role="PI" xml:id="DS"><persName>David Stifter</persName>
+                <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">DON-002</idno>    
+                <idno type="CIIC">951</idno>
+                <availability>
+                   <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>          
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <note>Two inscriptions: fifteen lines in Irish on the west face and two lines in Greek on the north side</note>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            <textLang otherLangs="grc-Grek">Ancient Greek in Greek script></textLang>
+                           </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>National Monuments Service Record Number: <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=DG038-013002-">DG038-013002-</ref>. 
+                                        <material ref="materials.xml#lapis">Stone</material> <objectType ref="objects.xml#mon2">cross</objectType>,
+                                          described by <ref source="#MAC1949">Macalister (1949, 120)</ref> as <q>`shale-like stone'</q>                                            
+                                         <dimensions unit="cm">
+                                            <height>2.10</height>
+                                            <width>1.04</width>
+                                            <depth>0.18</depth>
+                                         </dimensions> (<ref source="#LAC1983">Lacy 1983, 268</ref>). 
+                                        <q>An upright slab with triangular top... The corners have a roll moulding, and the tenons project from the narrow sides to a maximum of 7cm. The south side is undecorated</q>. <q>On each side is carved a cross formed of broad double-edged interlaced ribbon. On both faces this consists of a Greek cross mounted on a stem giving the effect of a Latin cross</q> (full description at <ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=DG038-013002-">Archaeology.ie</ref>). According to local tradition this slab marks the grave of St. Muru.</p>
+                                    <q><p>EAST FACE A <rs type="decoration" ref="crosses.xml#reliefCross">cross</rs> outlined by a raised moulding stands out in relief from the east face. It is filled with interlacing which has a broad central band flanked on each side by a narrower band. There is a boss in the centre of the cross, and in each armpit there is another having two concentric circles on its upper surface. There are two birds facing one another in the gable at the top of the slab, their curving beaks crossing one another.</p>
+                                    <p>WEST FACE The west face has a <rs type="decoration" ref="crosses.xml#reliefCross">cross</rs> standiing out in some relief, but its interlace and terminals have a more elaborate form than those on the cross on the east face. There is a rounded boss at the centre of the cross, surrounded by three-strand interlace with broad central band, which stands in relief on the cross surface and which crreates an arcaded shape at the end of the terminals. The interlace of the shaft of the cross on this face is more closely meshed. There is a single figure standing in profile on wither side of the shaft, which some have identified as ecclesiastics, and others as women. Their hair falls down in strands behined the steep fronted heads, and on their long garments there are inscriptions which have never been satisfactorily deciphered. The interlace of the shaft of the cross branches out on either side at the bottom to form a platform for the two standing figures.</p> </q>(<ref source="#HAR1992">Harbison 1992, 88-9</ref>)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>On the west face, <ref source="#MAC1945">Macalister (1949, 118)</ref> read a <rs type="style">horizontal</rs>, <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pocked and rubbed</rs> inscription (1) beginning (with 'BENDEXT') underneath the arms of the cross on both sides and above and heads of the two carved figures (Bishop and King?), continuing on the robes of the figures in two columns, first the left (AR ARDEBSCOP MARGA UA RINAGAIN), then the right (...SIR RIG TADGAIN). However, others (including <ref source="#HEN1965">Henry 1965, 125-8</ref>) have expressed doubts about this inscription. On the north side there is also a less weathered, two-line Greek inscription (2) running <rs type="style">vertical</rs>ly upwards, Macalister's reading of which has been generally accepted. 
+                                   </layout>
+                            </layoutDesc>
+                        </objectDesc>                        
+                        <handDesc>
+                            <handNote>Based on <ref source="#MAC1945">Macalister's (1949, 118)</ref> illustration, the inscription on the West face is in Insular half-uncial. <q>The Bs and Ds are generally open-bowed; the A's vary between an almost square bow, and the 'OC' A. The Gs are all half-uncial while some of the Es have a closed, and others an open, bow. Alongside a number of majuscule Rs there is one half-uncial R. The M is reminiscent of the first M of line 2 at Llanllyr in Cardigan [LLLYR/1]. There are no ligatures, but a number of letters, such as X and T, A and R, S and C, are conjoined</q> (<ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/fahan_1.html">Celtic Inscribed Stones Project</ref>). The Greek inscription is in a mixture of majuscule and minuscule Greek letters, especially the Α/α, Ξ/ξ and the Ω/ω. ΤΙΜΕ is an error for ΤΙΜΗ. This shows that whoever wrote this inscription pronounced Greek in the ancient classical way [tiˈmeː], not in the modern way [tiˈmiː] as it would already have been pronounced at his time.                              
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Fahan">
+                                <placeName type="town">Fahan (<ref target="https://www.logainm.ie/ga/15198"><hi rend="italic">Fathain</hi></ref>)</placeName>, townland of <placeName type="townland">Glebe</placeName>,  <placeName type="county">Co. Donegal</placeName>, 
+                                <geo>55.083141, -7.460638</geo>.
+                            </origPlace>
+                            <origDate notBefore="0700" notAfter="0900" precision="low" evidence="textual-context" datingMethod="#julian">c. 8th–9th centuries A.D.</origDate>
+                        </origin>
+                        <provenance type="found" when="1881"><p><ref source="#MAC1945">Macalister (1949, 118)</ref> credits W.J. Doherty with the first mention of this inscribed stone in 1881 at Fahan Mura (named after the founder and first abbot, St Mura) early church site  (<ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4663">Monasticon Hibernicum database</ref>). <q>The early ecclesiastical site of Fahan consists of a modern graveyard, at a bend in the road. It is possible that this bend may reflect something of an earlier enclosure. Inside the graveyard (DG038-013004-) is part of a ruined church (Fahan old church: DG038-013001)... On the outside wall of the graveyard on the S side of the entrance is a small slab (DG038-013003-) .41mx .32m. On this is a carved wheeled cross. This stone is very similar to another found near Clonca (DG012-002009-)... About 350m NW of the churchyard and close to the shore is a holy well (DG038-012-) dedicated to St. Mura</q>.  (<ref source="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=DG038-013004-">Archaeology.ie</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">Findspot 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>
+<language ident="grc-Grek">Ancient Greek in Greek script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.doxology" ref="https://en.wikipedia.org/wiki/Doxology">Doxology</term>
+</keywords>
+</textClass>    
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-08-03" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-03-01" who="#NW">
+    NW added reading and comments on Greek by DS (David Stifter)
+</change>
+    <change when="2022-04-06" who="#NW">
+    NW added reading of Latin text by DS (David Stifter) and NW from 3d images supplied by Discovery Programme
+</change>
+    <change when="2022-10-04" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (ringed, Latin, etc)
+</change>
+    <change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+    </listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+         <media url="https://sketchfab.com/3d-models/fahan-high-cross-2021-sfm-geometric-texture-0e949525ed014ee185da6d861ccd6d3c" mimeType="text/html"><desc>3d model on Sketchfab by Discovery Programme</desc></media>
+        <graphic url="Fahan.jpg"><desc>Image of W face inscription, ©Photographic Archive, National Monuments Service, Government of Ireland</desc></graphic>
+         <graphic url="Fahan_Mura.jpg"><desc>Illustration by Macalister 1949</desc></graphic>
+         <graphic url="Fahan2.jpg"><desc>Image of Greek inscription, ©Photographic Archive, National Monuments Service, Government of Ireland</desc></graphic>
+       <!-- <graphic url="Fahan3d.jpg"><desc>Screenshot of 3d model by </desc></graphic>   -->     
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" source="#DS">
+                 <div type="textpart" n="1">
+                <ab xml:lang="sga" type="west_face" subtype="above_figures">       
+                     <lb n="1"/><milestone unit="side" n="1"/><gap reason="illegible" extent="unknown" unit="character"/><milestone unit="side" n="2"/><gap reason="lost" extent="unknown" unit="character"/>
+                         <lb n="2" break="no"/><milestone unit="side" n="1"/><gap reason="illegible" extent="unknown" unit="character"/>
+                         <lb n="3" break="no"/><milestone unit="side" n="1"/>E<gap reason="illegible" extent="unknown" unit="character"/><milestone unit="side" n="2"/><unclear reason="faded">T</unclear>
+                </ab>
+                <ab xml:lang="sga" type="west_face" subtype="figures_robes">               
+                    <cb n="1"/>
+                    <lb n="4"/><w lemma="ar" corresp="http://www.dil.ie/3902">AR</w> <gap reason="illegible" quantity="3" unit="character"/>  
+                         <lb n="5" break="no"/><w lemma="epscop" corresp="http://www.dil.ie/20188">EB<unclear reason="faded">SC</unclear><supplied reason="lost">OB</supplied></w>
+                    <lb n="6"/><unclear reason="illegible">M</unclear>AN
+                        <lb n="7" break="no"/><unclear reason="faded">GAUS</unclear>
+                         <lb n="8" break="no"/><unclear reason="faded">ARI</unclear><gap reason="illegible" quantity="1" unit="character"/>
+                         <lb n="9" break="no"/><gap reason="illegible" quantity="1" unit="character"/>G<unclear reason="faded">A</unclear><gap reason="illegible" quantity="2" unit="character"/>
+                     
+                     <cb n="2"/>
+                    <lb n="10"/>RÁ<unclear reason="faded">I</unclear><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="11" break="no"/><gap reason="illegible" quantity="5" unit="character"/> 
+                          <lb n="12" break="no"/><gap reason="illegible" quantity="5" unit="character"/> 
+                           <lb n="13" break="no"/>S<gap reason="illegible" quantity="1" unit="character"/><unclear reason="illegible">RRI</unclear>
+                    <lb n="14"/><persName><name nymRef="Tadgán" corresp="http://www.dil.ie/39445"/><supplied reason="lost" cert="low">TA</supplied>D<supplied reason="lost" cert="low">G</supplied>
+                        <lb n="15" break="no"/><unclear reason="faded">AI</unclear><supplied reason="lost" cert="low">N</supplied></persName>
+                    </ab>
+                 </div>
+                 <div type="textpart" n="2" resp="#DS">
+                <ab xml:lang="grc-Grek" type="north_side" style="text-direction:verticle">
+                    <lb n="1"/><handShift n="2"/><w>ΔΟΞΑ</w> <w>ΚΑΙ</w> <w>ΤΙΜΕ</w> <w>ΠΑΤΡΙ</w> <w>ΚΑΙ</w> <w>ΥΙΩ</w> 
+                    <lb n="2"/><w>ΚΑΙ</w> <w>ΠΝΕΥΜΑΤΙ</w> <w>ΑΓΙΩ</w>                                       
+                  </ab>
+                 </div>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                <app loc="1"><rdg source="#MAC1945">Macalister 1945, 118: BENDEXT AR ARDEBSCOP MARGA UA RINAGAIN [RAB I N-ABAIDECHT IN AIM]SIR RIG TADGAIN</rdg></app>                    
+                </listApp>
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Irish inscription on west face (according to <ref source="MAC1949">Macalister's (1949, 118)</ref> reading): 'A blessing upon the Archbishop Marga ua Rinagain [who was in the abbacy?] in the time of King Tadgán'.</p>
+                <p>Greek inscription on north side (<ref source="MAC1949">Macalister 1949, 120</ref>): 'Glory and honour to the father the son and the holy spirit'.</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The text of the longer, Irish inscription on the west face (robes of the figures) is now very weathered and we can only be certain of a few of the letters. As regards dating the inscription, a possible spelling <hi rend="italic">ebscob</hi> could be early, but the rest is too fragmentary to say anything further. Regarding the stone generally, <ref source="#STE1985">Stevenson (1985, 92-94)</ref>, argues on the basis of numerous paralells drawn from Scotland, England, Man and Ireland, for a tenth or eleventh century date, while <ref source="#EDW1985">Edwards (1985, 395-396)</ref>, suggests an eighth-century date.</p></item> 
+                     <item n="2"><p>The Greek text on the north edge of the stone has a liturgical origin and records the doxologogy 'Glory and honour to the father the son and the holy spirit', which first appeared in the Acts of the Fourth Council of Toledo in 633 (<ref source="#MOR2012">Moran 2012, 175</ref>; <ref source="#HIL1962">Hillgarth 1962, 193</ref>).
+                     </p></item>                                  
+                       </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#EDW1985"/>Edwards 1985, 
+                        <citedRange>395-396</citedRange>
+                    </bibl>;                    
+                   <bibl><ptr target="#HAR1992"/>Harbison 1992, 
+                        <citedRange>vol. 1. 88-9</citedRange>
+                    </bibl>;
+                   <bibl><ptr target="#HEN1965"/>Henry 1965, 
+                        <citedRange>125-8</citedRange>
+                    </bibl>; 
+                     <bibl><ptr target="#HIL1962"/>Hillgarth 1962, 
+                        <citedRange>193</citedRange>
+                    </bibl>;  
+                    <bibl><ptr target="#LAC1983"/>Lacy 1983, 
+                    <citedRange>268-9</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1929"/>Macalister 1929, 
+                        <citedRange>89-98</citedRange>
+                    </bibl>;    
+                   <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>118-20, no.951</citedRange>
+                    </bibl>;    
+                     <bibl><ptr target="#MOR2012"/>Moran 2012, 
+                        <citedRange>175</citedRange>
+                    </bibl>;                        
+                     <bibl><ptr target="#OKA2001"/>Okasha and Forsyth 2001,
+                         <citedRange>52-3</citedRange>
+                     </bibl>
+                     <bibl><ptr target="#STE1985"/>Stevenson 1985,
+                         <citedRange>92-5</citedRange>   
+                    </bibl>
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

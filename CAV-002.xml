@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>CAV-002. Enniskeen Cross Slab</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">CAV-002</idno>                
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p><material ref="materials.xml#lapis">Stone</material> <objectType ref="objects.xml#mon3">cross slab</objectType>                                          
+                                         (<dimensions unit="m" source="#CAL2021">
+                                            <height>0.66</height>
+                                            <width>0.39</width>
+                                            <depth>0.09</depth>
+                                         </dimensions>). Spanning most of the dressed surface of the slab is a Latin outline cross. This <rs type="decoration" ref="crosses.xml#expansionalCross">expansional cross</rs> type is formed of deep, v-shaped grooves, deepest on the upper and sinister terminals, and are of a similar depth (c. 4 mm) as the formulaic ‘ŌR AR’ inscribed across the top of the slab on either side of the upper cross arm. The cross is well-executed, though the dexter terminal is somewhat irregular. Its dexter and sinister terminals end in large T-bars, or potents. The upper and lower arms have circular terminals. The main cross has a large circular expansion at its intersection, within which is an incised, equal-armed, encircled cross. This cross has widely splayed, wedge-shaped terminals and curved arm-pits, with an incised dot in each quadrant. While the inscription occupies the upper quadrants of the main cross, centrally positioned in its lower sinister quadrant is another incised, equal-armed, encircled cross, also with an incised dot in each quadrant. It differs from that at the intersection of the main cross in that it is formed from narrower, shallower grooves, and the arms terminate with no elaboration before the circular frame (Extract from a description of the cross form supplied by Kate Colbert, NUIG).</p></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Like the cross, the inscription appears to be <rs type="execution" key="punctim" ref="https://www.eagle-network.eu/voc/writing/lod/11.html">pecked</rs> and is arranged <rs type="style">horizontal</rs>ly in two lines either side of the top two quadrants of the cross. </layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><q>The cross and the first line are executed with considerable care, the letters go deep into the stone, up to a depth of 4mm. The letters in the first line are c. 50mm high. The second line and an encircled cross
+in the bottom right section are much fainter...  The letters are smaller, around 40mm,
+and they are shallower than those in the first line, going only 1mm into the stone</q> (<ref source="#CAL2021">Callaghan and Stifter 2020, 262</ref>). This may be partially due to damage to the stone.
+                                <height/>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Enniskeen">
+                                 <placeName type="townland">Enniskeen (<ref target="https://www.logainm.ie/ga/1862"><hi rend="italic">Inis Caoin</hi></ref>)</placeName>, <placeName type="county">Co. Cavan</placeName>, 
+                                <geo>53.891919, -6.796237</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" when="2019"><p>The stone was discovered by Brian Callaghan in Enniskeen
+graveyard (<ref target="https://maps.archaeology.ie/HistoricEnvironment/?SMRS=CV035-042002-">CV035-042002-</ref>) in July 2019. <q>The stone was lying flat in a West-East orientation in the
+northern section of the graveyard near to the northern perimeter wall</q> (<ref source="#CAL2021">Callaghan and Stifter 2020, 262</ref>). The rectangular graveyard, situated on a marshy site, is now disused. There are no visible remains of the church, which is mentioned in early sources. These is a holy well (Tobar Áirne) approximately 300m to the NE (<ref source="https://monasticon.celt.dias.ie/showrecord.php?id=3898">Monasticon Hibernicum Database</ref>).</p>
+                        </provenance>
+                        <provenance type="observed">Findspot 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>           
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+<language ident="mga-Latn">Middle Irish written in latin script</language>
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.prayer" ref="https://www.eagle-network.eu/voc/typeins/lod/85.html">Prayer</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2022-02-02" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-06" who="#NW">
+Nora White replaced decoration type 'symbol' (cross) with new authority 'crosses' (Latin cross, outline cross, ringed cross, etc)
+</change>    
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <media url="https://sketchfab.com/3d-models/enniskeen-cross-slab-inscribed-stone-v2-64f927d2ec1e4f0da4a7c3a3f7f8ad69" mimeType="text/html"><desc>3d model on Sketchfab by Digital Heritage Age</desc></media>
+        <!--<graphic url="Moybologue.jpg"><desc>Screenshot of 3d model by Gary Dempsey</desc></graphic> -->          
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#CAL2020">
+                <ab>
+                      <lb n="1"/><!--<milestone unit="quadrant" n="1"/>--><expan><w lemma="oróit" corresp="http://www.dil.ie/33938"><abbr><hi rend="supraline">OR</hi></abbr><ex>ÓIT</ex></w></expan>
+                      <!--<milestone unit="quadrant" n="2"/> -->
+                   <w lemma="ar" corresp="http://www.dil.ie/3902">AR</w>
+                    <lb n="2"/><!--<milestone unit="quadrant" n="1"/>--><unclear reason="faded">N</unclear>E<unclear reason="faded">C</unclear>D
+                   <!-- <milestone unit="quadrant" n="2"/>-->
+                    O<unclear reason="faded">N</unclear><unclear reason="faded">C</unclear><unclear reason="faded">I</unclear>                      
+                  </ab>
+            </div>
+            <div type="apparatus">
+                
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>A prayer on behalf of ...</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>The word <hi rend="italic">oróit</hi> 'prayer' is most commonly followed by the preposition <hi rend="italic">do</hi> 'for'. However, a variant formula using the preposition <hi rend="italic">ar</hi> 'on behalf of' is occassionally found.</p></item>
+                    <item n="2"><p>The reading of the second line is less clear. The first letter could be <q>either N or M. Two hastae of a capital nasal letter are visible, the oblique stroke connecting them is ascending. There is another such oblique stroke after the second hasta, which, however, is not followed by a straight vertical line, as would be expected for an M</q>. The second letter <q>could be a small E or perhaps the same kind of small A like in the first line</q>. The third <q>looks very much like C or perhaps E, although no middle stroke is discernible; there does not seem to be enough space for an A of the type seen in line 1</q>. The last letter in this quadrant <q>looks decidedly like a D; its ascender can be seen quite clearly on some of the stills.
+Rather unusually, the ascender rises upward almost vertically, while more commonly it runs parallel to
+be baseline</q>. The first letter in the right quadrant is <q>clearly an O with a stroke over it. Since this does seems to be neither a sacred name nor a function word, the possibility of an abbreviation stroke has been ruled out. Nasal strokes are very rare
+in Early Irish lapidary inscriptions</q>. The next letter <q>looks like a semi-uncial N, in contrast to the capital N/M at the beginning. However, this is already on the portion of the stone where the original surface has fallen off or has been chipped away</q>. Next is possibly another C <q>or the left half of a semi-uncial A. What comes out on the images as a stroke or swirl above the letter, is rather the edge of the broken-off section of the stone... Of the last letter, if indeed it is one, only a single vertical stroke is recognisable, which could point to an I or L</q> (<ref source="#CAL2021">Callaghan and Stifter 2020, 262</ref>).</p></item>
+                       <item n="3"><p>None of the collections of medieval Irish names (esp. <hi rend="italic">Corpus Genealogiarum Hiberniae</hi> and <hi rend="italic">Corpus Genealogiarum Sanctorum Hiberniae</hi>) contains a name beginning with <hi rend="italic">Necd-</hi>, <hi rend="italic">Nacd-</hi> or <hi rend="italic">Naed-</hi> that could be reconciled with what remains of the inscription. If, albeit hesitatingly, we read the first letter as an M, a number of possibilities arise. The first three letters could stand for <hi rend="italic">Mac</hi>, in which case the clerical names <hi rend="italic">Mac Dochae, Mac Dommáin</hi> or <hi rend="italic">Mac Donnáin</hi>, all otherwise attested, would be a possibility, as would be <hi rend="italic">Mac Doborchon</hi> if it is assumed that the last bit of the name was abbreviated. Alternatively, the name could be completed as <hi rend="italic">Máedóc</hi>, in which case the number of letters on the right section of the cross would not match that on the left section(<ref source="#CAL2021">Callaghan and Stifter 2020, 263</ref>).</p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>  
+                    <bibl><ptr target="#CAL2020"/>Callaghan and Stifter 2020,
+                        <citedRange>262-263</citedRange>
+                    </bibl>                                     
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>FER-002. Killadeas Carved Stone Sculpture</title>
+                <editor role="editor" xml:id="NW"><persName>Nora White</persName>                  
+                 <orgName>Maynooth University, Department of Early Irish</orgName></editor>
+                 <funder>Royal Irish Academy</funder>
+                <funder>
+                <ref target="https://www.ria.ie/sites/default/files/nowlan_digitisation_grants_2021.pdf">Nowlan Digitisation Grant</ref>
+                </funder>
+                <respStmt>
+                <name ref="https://orcid.org/0000-0001-7957-651X">Nora White</name>
+                <resp>data collection, editing and encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>EMILI</authority>
+                <idno type="filename">FER-002</idno>      
+                <idno type="CIIC">959</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</licence>                                       
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                       <repository>n/a</repository>
+                        <idno><!--museum/archive inventory number--></idno>
+                    </msIdentifier>
+                     <msContents>
+                        <msItem>
+                            <textLang mainLang="sga-Latn">Old Irish written in latin script</textLang>
+                            </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <p>Northern Ireland Sites and Monuments Record Number: <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=9781">FER 192:001</ref>. 
+                                        A <objectType ref="objects.xml#mon7">carved <material ref="materials.xml#lapis">stone</material> sculpture</objectType>, known as the 'bishop's stone',                                                                       
+                                        <dimensions unit="m">
+                                            <height>1.05</height>
+                                            <width>0.39</width>
+                                            <depth>0.23</depth>
+                                         </dimensions> (converted from <ref source="#MAC1945">Macalister 1949, 123)</ref>. <q>Upon one of its narrow edges, a figure with a grotesque head in relief, closely akin to the famous series on White Island in the same county. The head is intact, but the body has been completely chiselled away, a panel of interlacements now filling the space which it occupied...Thereafter...adpated as the monument of an ecclesiastic, who was represented by a figure holding a crozier and a bell, cut on one of the broad sides of the stone. Though the figure is crude, the sculptor has succeeded in investing it with a real vitality: the mincing gait of the subject is well caught. Traces of an inscription may be detected upon the garment of the figure</q> (<ref source="#MAC1945">Macalister 1949, 123</ref>; <ref source="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/docs/FER/FER_192/FER_192_001/Public/SM7-FER-192-001-001C.pdf">NISMR file</ref>;  image below provided by <ref target="http://www.megalithicireland.com/Killadeas.htm">Megalithic Ireland</ref>). </p></support>                                                                   
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout><q>The <rs type="execution" key="incised" ref="https://www.eagle-network.eu/voc/writing/lod/1.html">incised</rs> </q>inscription is very worn and uncertain but appears to run vertically upwards on the back of the figure (<ref source="#MAC1945">Macalister 1949, 123</ref>).</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>The entry in the <ref source="https://www.ucl.ac.uk/archaeology/cisp/database/stone/kdeas_1.html">Celtic Inscribed Stones Project</ref> database notes that <q>the inscription appears to contain a majuscule R and a half-uncial B</q>.                                            
+                                <height></height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace corresp="#findspot" ref="origPlace.xml#Killadeas">
+                                <placeName type="site">Killadeas (<ref target="https://www.logainm.ie/ga/130638"><hi rend="italic">Cill Chéile Dé</hi></ref>)</placeName>, townland of <placeName type="townland">Rockfield</placeName>,  <placeName
+                    type="county">Co. Fermanagh</placeName>, 
+                                <geo>54.433987, -7.683124</geo>.
+                            </origPlace>
+                            <origDate><!--?? century A.D--></origDate>
+                        </origin>
+                        <provenance type="found" when="1935"><p><ref source="#MAC1945">Macalister (1949, 123)</ref> states that the stone was found within the cemetery of the parish church of Killadeas, and that it was first published by Lady D. <ref source="#LOW1935">Lowry-Corry</ref> in 1935. The site is described by <ref target="https://apps.communities-ni.gov.uk/NISMR-PUBLIC/Details.aspx?MonID=9781">NISMR database</ref> as follows: <q>A modern church and graveyard now occupy an earlier site (<ref target="https://monasticon.celt.dias.ie/showrecord.php?id=4096">Monasticon Hibernicum Database</ref>). N of the modern church are three sides of an earlier rectangular graveyard, orientated NNW-SSE. It contains many C18th gravestones and also undecorated grave-markers, some of which could be Early Christian. According to Lowry-Corry, the original church site is an a hollow N of the graveyard on the other side of the road, but there are now no visible remains of it. In the graveyard are four carved stones, possibly dating to C9-11th</q>.</p>
+                        </provenance>
+                        <provenance type="observed">Findspot 
+                        </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+<p>Encoded following EpiDoc guidelines 9.3</p>
+<p>Taxonomies for EMII (Early Medieval Irish Inscriptions) controlled values??</p>
+            <!--<charDecl>
+<!-\- <glyph xml:id="crux">
+  <mapping type="standard">†</mapping>
+  <mapping type="simplified">(crux)</mapping>
+  <mapping type="g-london-diplomatic">†</mapping>
+ </glyph>-\->
+</charDecl>-->
+</encodingDesc>
+<profileDesc>
+<calendarDesc>
+<calendar xml:id="julian">
+<p>Julian Calendar</p>
+</calendar>
+</calendarDesc>
+<langUsage>
+<language ident="en">English</language>
+<language ident="grc">Ancient Greek</language>
+<language ident="la">Latin</language>
+<language ident="sga-Latn">Old Irish written in latin script</language>   
+
+</langUsage>
+<textClass>
+<keywords scheme="http://www.eagle-network.eu/voc/typeins.html">
+<term ana="#function.dedicatory" ref="https://www.eagle-network.eu/voc/typeins/lod/88.html">Dedicatory?</term>
+</keywords>
+</textClass>
+</profileDesc>
+<revisionDesc status="draft">
+<listChange>
+<change when="2021-08-08" who="#NW">
+Nora White created xml doc
+</change>
+<change when="2022-10-07" who="#NW">
+Nora White updated ISO Irish language codes from 'ga-Latn' (Irish) to 'mga-Latn' (Middle Irish) and 'sga-Latn' (Old Irish)
+</change>
+</listChange>
+</revisionDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <graphic url="Killadeas_2.jpg"><desc>Sketch by Macalister (1949, Plate XLVII)</desc></graphic> 
+        <graphic url="Killadeas_2b.jpg"><desc>Image courtesy of José, collaborator at http://www.megalithicireland.com</desc></graphic> 
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve" xml:lang="sga" resp="#MAC1949">
+                <ab>
+                     <lb n="1" style="text-direction:verticle"/><lb n="1"/><persName nymRef="Robartach" corresp="http://www.dil.ie/35377">R<supplied reason="lost">O</supplied>B<supplied reason="lost">ART</supplied>A<supplied reason="lost">CH</supplied></persName>
+                  </ab>
+            </div>
+            <div type="apparatus">
+                             
+            </div>
+            <div type="translation" xml:lang="en">
+                <p>Robartach</p>
+            </div>
+            <div type="commentary"> 
+                <list type="witDetail">
+                    <item n="1"><p>Several persons are recorded in the Annals of Ulster in the 8th and 9th centuries with the name Robartach, though none that appear to be from this area.</p></item>
+                        </list>
+            </div>
+            <div type="bibliography">
+                <head>Bibliography</head>
+                <p>     
+                    <bibl><ptr target="#LOW1919"/>Lowry-Corry 1935,
+                        <citedRange>24-26</citedRange>
+                    </bibl>;
+                    <bibl><ptr target="#MAC1949"/>Macalister 1949, 
+                        <citedRange>123, no.959</citedRange>
+                    </bibl>                    
+                 </p>
+            </div>            
+        </body>
+    </text>
+</TEI>
